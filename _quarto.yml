@@ -63,10 +63,10 @@ navbar:
       &#169; 2026 Trishna Saikia &#8729; Made with [Quarto](https://quarto.org)
 
     center: |
-      <a class="link-dark me-1" href="https://linkedin.com/in/YOUR-LINKEDIN-ID" title="LinkedIn" target="_blank" rel="noopener">{{< fa brands linkedin >}}</a>
-      <a class="link-dark me-1" href="https://github.com/YOUR-GITHUB-USERNAME" title="GitHub" target="_blank" rel="noopener">{{< fa brands github >}}</a>
-      <a class="link-dark me-1" href="https://scholar.google.com/citations?user=YOUR-SCHOLAR-ID" title="Google Scholar" target="_blank" rel="noopener">{{< ai google-scholar >}}</a>
-      <a class="link-dark me-1" href="https://orcid.org/YOUR-ORCID-ID" title="ORCID" target="_blank" rel="noopener">{{< ai orcid >}}</a>
+      <a class="link-dark me-1" href="https://www.linkedin.com/in/trishnasaikia/?isSelfProfile=false" title="LinkedIn" target="_blank" rel="noopener">{{< fa brands linkedin >}}</a>
+      <a class="link-dark me-1" href="https://github.com/TrishnaSaikia" title="GitHub" target="_blank" rel="noopener">{{< fa brands github >}}</a>
+      <a class="link-dark me-1" href="https://scholar.google.com/citations?hl=en&user=G6G8ir0AAAAJ" title="Google Scholar" target="_blank" rel="noopener">{{< ai google-scholar >}}</a>
+      <a class="link-dark me-1" href="https://orcid.org/my-orcid?orcid=0000-0002-3052-1689" title="ORCID" target="_blank" rel="noopener">{{< ai orcid >}}</a>
       <a class="link-dark me-1" href="mailto:trishnasaikia2521@gmail.com" title="Email" target="_blank" rel="noopener">{{< fa envelope >}}</a>
 
     right:
