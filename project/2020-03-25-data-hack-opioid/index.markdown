@@ -17,7 +17,7 @@ date-modified: 2020-03-25
 slug: data-hack-opioid
 image: featured.png
 alias:
-  - /publication/data-hack-opioid/
+  - /research/data-hack-opioid/
 categories:
   - journalism
   - education

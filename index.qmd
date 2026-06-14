@@ -1,79 +1,66 @@
 ---
-title: "Silvia Canelón, PhD"
-pagetitle: "Silvia Canelón, PhD"
-subtitle: "Data Scientist at the University of Pennsylvania"
-image: assets/silvia/img/skyline-philly-dual.png
-image-alt: "Abstract data visualization depicting tall buildings in Philadelphia as a circle. The text inside the circle reads Philadelphia Skyline"
+title: "Trishna Saikia"
+pagetitle: "Trishna Saikia"
+subtitle: "PhD Researcher in Computer Vision, Physiological Computing, and Healthcare AI"
+image: assets/img/profile.jpg
+image-alt: "Portrait of Trishna Saikia"
 
 twitter-card:
-    title: Silvia Canelón, PhD
+    title: Trishna Saikia
     description: |
-      Researcher, educator, and journalist with data science expertise.
-    image: assets/silvia/img/silvia-social.png
+      PhD researcher working on machine learning, computer vision, multimodal learning, and physiological computing.
+    image: assets/img/profile.jpg
 
 about:
   template: solana
   image-width: 28em
   id: hero-heading
   links:
-    - text: "{{< fa universal-access >}}"
-      aria-label: "Accessibility statement"
-      href: accessibility.qmd
-    - text: "{{< fa brands bluesky >}}"
-      aria-label: "Bluesky"
-      href: https://bsky.app/profile/silviacanelon.com
     - icon: linkedin
       aria-label: "LinkedIn"
-      href: https://linkedin.com/in/spcanelon
+      href: https://www.linkedin.com/in/trishnasaikia/?isSelfProfile=false
+
     - icon: github
-      aria-label: GitHub
-      href: https://github.com/spcanelon
-    # - icon: mastodon
-    #   href: https://hachyderm.io/@spcanelon
-    - text: "{{< ai orcid >}}"
-      href: https://orcid.org/0000-0003-1709-1394
+      aria-label: "GitHub"
+      href: https://github.com/TrishnaSaikia
+
     - text: "{{< ai google-scholar >}}"
       aria-label: "Google Scholar"
-      href: https://scholar.google.com/citations?user=GAzkvpcAAAAJ&hl=en&oi=ao
+      href: https://scholar.google.com/citations?hl=en&user=G6G8ir0AAAAJ
+
+    - text: "{{< ai orcid >}}"
+      aria-label: "ORCID"
+      href: https://orcid.org/my-orcid?orcid=0000-0002-3052-1689
+
     - text: "{{< fa envelope >}}"
-      aria-label: Newsletter
-      href: https://buttondown.com/spcanelon
+      aria-label: "Email"
+      href: mailto:trishnasaikia2521@gmail.com
+
 page-layout: full
 
-execute: 
+execute:
   freeze: false
   echo: false
   warning: false
 
 header-includes: >
   <link rel="stylesheet" href="assets/index.css">
+
 resources:
   - assets/index.css
 ---
 
 <br><br>
 
-
 ::: {#hero-heading}
 
-I am a researcher, R educator, and data journalist with a love for community. My **research** leverages electronic health record and spatial data to study the intersection of health equity and urban nature. My **journalism** and **community** projects value the partnership between open source tools and data literacy as a way to build power and effect change.
+I am a final-year PhD researcher in Computer Science and Engineering at **IIT Indore**, working at the intersection of **machine learning, computer vision, multimodal learning, and physiological computing**. My research focuses on developing AI systems that can extract physiological and behavioral information from videos and biosignals under real-world conditions.
+
+My work includes remote physiological sensing for **heart rate, blood pressure, respiratory rate, oxygen saturation, and pain-related analysis**, with a focus on robust representation learning, temporal modeling, transformer architectures, multimodal fusion, and healthcare AI.
+
+I am also a **Prime Minister Research Fellow (PMRF)** and a **Visiting Research Scholar at the University of Turku, Finland**, where I collaborate on AI and physiological computing research.
 
 [Learn more about me &rarr;](/about){.about-links .subtitle}
 
 :::
 <!-- hero-heading -->
-
-```{r write-manual-redirects}
-#| eval: true
-
-manual_redirects <-
-  readr::read_table(here::here("static", "_manualredirects.txt"),
-                    col_names = FALSE) |> 
-  dplyr::mutate(redirect = paste0(X1, " ", X2, " ", X3))
-
-manual_redirects <- manual_redirects$redirect
-
-# write the _redirect file
-writeLines(manual_redirects, here::here("_site", "_redirects"))
-
-```

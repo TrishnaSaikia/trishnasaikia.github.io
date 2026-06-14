@@ -190,7 +190,7 @@
 			url: 'https://s3.amazonaws.com/te512.safecast.org/{z}/{x}/{y}.png',
 			options: {
 				maxZoom: 16,
-				attribution: 'Map data: {attribution.OpenStreetMap} | Map style: &copy; <a href="https://blog.safecast.org/about/">SafeCast</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
+				attribution: 'Map data: {attribution.OpenStreetMap} | Map style: &copy; <a href="https://miscellaneous.safecast.org/about/">SafeCast</a> (<a href="https://creativecommons.org/licenses/by-sa/3.0/">CC-BY-SA</a>)'
 			}
 		},
 		Stadia: {

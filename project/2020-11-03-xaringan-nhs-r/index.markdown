@@ -23,7 +23,7 @@ links:
   url: https://github.com/spcanelon/xaringan-basics-and-beyond
 - icon: link
   name: Version en español
-  url: "/talk/2020-12-17-introduccion-xaringan/"
+  url: "/teaching/2020-12-17-introduccion-xaringan/"
 ---
 
 <img src="https://raw.githubusercontent.com/spcanelon/xaringan-basics-and-beyond/main/cover-image.png" title="Cover image for the two day workshop with the title (same as this page) and the subtitle 'An Introduction to xaringan: the Basics and Beyond'. My name is listed as well as the dates November 3rd and 5th of 2020. The image features some blue, red, and yellow artwork in the background and the hex logo for the xaringan package in the lower right corner." alt="Cover image for the two day workshop with the title (same as this page) and the subtitle 'An Introduction to xaringan: the Basics and Beyond'. My name is listed as well as the dates November 3rd and 5th of 2020. The image features some blue, red, and yellow artwork in the background and the hex logo for the xaringan package in the lower right corner." width="75%" style="display: block; margin: auto;" />
