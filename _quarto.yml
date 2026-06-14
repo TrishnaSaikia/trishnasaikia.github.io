@@ -5,7 +5,7 @@ project:
 
 website:
   title: "Trishna Saikia"
-  site-url: https://trishnasaikia2521.github.io
+  site-url: https://trishnasaikia.github.io
   description: "PhD Researcher in Machine Learning, Computer Vision, and Physiological Computing at IIT Indore."
   favicon: assets/silvia/img/logo_rounded.svg
   page-navigation: true
