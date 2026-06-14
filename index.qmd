@@ -6,10 +6,10 @@ image: assets/img/profile.jpg
 image-alt: "Portrait of Trishna Saikia"
 
 twitter-card:
-    title: Trishna Saikia
-    description: |
-      PhD researcher working on machine learning, computer vision, multimodal learning, and physiological computing.
-    image: assets/img/profile.jpg
+  title: Trishna Saikia
+  description: |
+    PhD researcher working on machine learning, computer vision, multimodal learning, and physiological computing.
+  image: assets/img/profile.jpg
 
 about:
   template: solana
@@ -18,7 +18,7 @@ about:
   links:
     - icon: linkedin
       aria-label: "LinkedIn"
-      href: https://www.linkedin.com/in/trishnasaikia/?isSelfProfile=false
+      href: https://www.linkedin.com/in/trishnasaikia/
 
     - icon: github
       aria-label: "GitHub"
@@ -30,7 +30,7 @@ about:
 
     - text: "{{< ai orcid >}}"
       aria-label: "ORCID"
-      href: https://orcid.org/my-orcid?orcid=0000-0002-3052-1689
+      href: https://orcid.org/0000-0002-3052-1689
 
     - text: "{{< fa envelope >}}"
       aria-label: "Email"
@@ -60,7 +60,7 @@ My work includes remote physiological sensing for **heart rate, blood pressure, 
 
 I am also a **Prime Minister Research Fellow (PMRF)** and a **Visiting Research Scholar at the University of Turku, Finland**, where I collaborate on AI and physiological computing research.
 
-[Learn more about me &rarr;](/about){.about-links .subtitle}
+[Learn more about me &rarr;](about/){.about-links .subtitle}
 
 :::
 <!-- hero-heading -->

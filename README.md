@@ -1,11 +1,26 @@
-# Personal website for<br>Silvia Canelón <a href='https://silvia.rbind.io'><img src='https://github.com/spcanelon/silvia/assets/49913337/d9aa4577-983e-4423-932d-9836bf60c4f4' align="right" height="180" alt=''/></a>
+# Personal Website of Trishna Saikia
 
-👋 Hello, and welcome to the repo for [my personal website](https://silvia.rbind.io)!
+👋 Welcome to the repository for my personal academic website.
 
-This version was made using [Quarto](https://quarto.org/) and inspired by the [Hugo Apéro theme](https://hugo-apero-docs.netlify.app/).
+I am a PhD researcher in Computer Science and Engineering at IIT Indore. My research interests include machine learning, computer vision, multimodal learning, physiological computing, and healthcare AI.
 
-I keep this repository public so that people can repo-dive and learn how to recreate what they like for their own site. This is how I learned! 🙌
+This website presents my research work, publications, teaching experience, projects, and academic activities.
 
-In return, I only ask that you avoid duplicating my site for yourself without permission. A lot of thought went into making my site unique to me and your site deserves to reflect your own unique style too!
+The website is built using [Quarto](https://quarto.org/) and adapted from the open-source website template by [Silvia Canelón](https://github.com/spcanelon/silvia).
 
-Thanks and happy repo-diving! 🤿 <a href='https://app.netlify.com/sites/silvia/deploys'><img src='https://api.netlify.com/api/v1/badges/4d7dccd9-ec21-47eb-b218-34cb5b768883/deploy-status' align="right" height="20" alt='Netlify Status'/></a>
+## Website
+
+🔗 [https://trishnasaikia.github.io](https://trishnasaikia.github.io)
+
+## Sections
+
+- Research
+- Teaching
+- Projects
+- Miscellaneous
+- CV
+- Contact
+
+## Acknowledgement
+
+This website was adapted from the public Quarto website repository by Silvia Canelón. I have modified the content, structure, and design to reflect my own academic profile.
