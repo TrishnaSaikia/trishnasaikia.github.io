@@ -1,5 +1,5 @@
 ---
-title: "Meeting People Where They R"
+title: "Miscellaneous"
 description: |
   This is my blog where I practice sharing my curiosity about R.<br>
   It includes notes and tutorials for my future self and hopefully also for you.<br><br>

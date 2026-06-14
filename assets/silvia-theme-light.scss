@@ -5,6 +5,20 @@
 // Rules: https://github.com/quarto-dev/quarto-cli/src/resources/formats/html/bootstrap/_bootstrap-rules.scss
 
 // Colors: Quarto variables
+$spc-primary: #0f2d4a;
+$spc-primary-light: #183b5c;
+
+$spc-accent: #b85a1a;
+$spc-accent-light: #cf6b24;
+$spc-accent-dark: #8d4514;
+
+$spc-secondary: #566573;
+$spc-secondary-light: #7b8a8b;
+
+$spc-bg-0: #f5f1eb;
+$spc-bg-00: #f5f1eb;
+$spc-bg-1: #f5f1eb;
+
 $primary:                    $spc-primary-light;
 $secondary:                  $spc-secondary;
 // Colors: custom variables

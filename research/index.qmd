@@ -1,5 +1,5 @@
 ---
-title: "Publications" 
+title: "Research"
 description: |
   This is home for my research publications, each linked with<br>
   accompanying preprints, posters, and/or news pieces.

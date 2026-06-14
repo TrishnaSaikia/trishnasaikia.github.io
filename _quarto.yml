@@ -6,12 +6,12 @@ website:
   title: "Trishna Saikia"
   site-url: "https://trishnasaikia.github.io"
   description: "PhD Researcher in Machine Learning, Computer Vision, and Physiological Computing at IIT Indore."
-  favicon: assets/silvia/img/logo_rounded.svg
+  favicon: assets/img/logo_rounded.svg
   page-navigation: true
   back-to-top-navigation: true
 
   navbar:
-    logo: assets/silvia/img/logo_rounded.svg
+    logo: assets/img/logo_rounded.svg
     tools:
       - icon: github
         href: https://github.com/TrishnaSaikia
@@ -51,25 +51,37 @@ website:
       - text: "Contact"
         aria-label: "Contact"
         href: contact.qmd
-
 format:
   html:
     theme:
       light:
         - cosmo
         - assets/silvia-theme-light.scss
-        - assets/silvia/colors-light.scss
-        - assets/silvia/fonts.scss
       dark:
         - cosmo
         - assets/silvia-theme-dark.scss
-        - assets/silvia/colors-dark.scss
-    highlight-style:
-      light: assets/silvia/a11y-light.theme
-      dark: assets/silvia/a11y-dark.theme
     code-link: true
     pagetitle: "{{< meta title >}}"
     lightbox: true
+
+#format:
+#  html:
+#    theme:
+#      light:
+#        - cosmo
+#        - assets/silvia-theme-light.scss
+#        - assets/silvia/colors-light.scss
+#        - assets/silvia/fonts.scss
+#      dark:
+#        - cosmo
+#        - assets/silvia-theme-dark.scss
+#        - assets/silvia/colors-dark.scss
+#    highlight-style:
+#      light: assets/silvia/a11y-light.theme
+#      dark: assets/silvia/a11y-dark.theme
+#    code-link: true
+#    pagetitle: "{{< meta title >}}"
+#    lightbox: true
 
 execute:
   freeze: auto

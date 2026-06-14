@@ -13,7 +13,7 @@ twitter-card:
 
 about:
   template: solana
-  image-width: 28em
+  image-width: 22em
   id: hero-heading
   links:
     - icon: linkedin
@@ -54,11 +54,11 @@ resources:
 
 ::: {#hero-heading}
 
-I am a final-year PhD researcher in Computer Science and Engineering at **IIT Indore**, working at the intersection of **machine learning, computer vision, multimodal learning, and physiological computing**. My research focuses on developing AI systems that can extract physiological and behavioral information from videos and biosignals under real-world conditions.
+I am a final-year PhD researcher in Computer Science and Engineering at IIT Indore. My research lies at the intersection of machine learning, computer vision, multimodal learning, and physiological computing.
 
-My work includes remote physiological sensing for **heart rate, blood pressure, respiratory rate, oxygen saturation, and pain-related analysis**, with a focus on robust representation learning, temporal modeling, transformer architectures, multimodal fusion, and healthcare AI.
+My work focuses on extracting physiological and behavioral information from videos and biosignals for applications in healthcare, including heart rate, blood pressure, respiration, oxygen saturation, and pain analysis.
 
-I am also a **Prime Minister Research Fellow (PMRF)** and a **Visiting Research Scholar at the University of Turku, Finland**, where I collaborate on AI and physiological computing research.
+I am a Prime Minister Research Fellow (PMRF) and currently a Visiting Research Scholar at the University of Turku, Finland.
 
 [Learn more about me &rarr;](about/){.about-links .subtitle}
 
