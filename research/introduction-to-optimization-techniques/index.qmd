@@ -1,0 +1,100 @@
+---
+title: "Introduction to Various Optimization Techniques"
+
+author:
+  - Trishna Saikia
+  - Koushlendra Kumar Singh
+  - Sergey Vityazev
+  - Akbar Sheikh Akbar
+
+date: "2022-01-01"
+
+slug: introduction-to-optimization-techniques
+
+categories:
+  - book chapter
+  - optimization
+  - operations research
+  - machine learning
+  - mathematical optimization
+
+description: "Book Chapter"
+
+summary: "An introductory book chapter covering classical and modern optimization techniques and their applications in engineering and decision-making."
+
+subtitle: "Overview of optimization methodologies and their engineering applications."
+
+image: featured.jpg
+
+links:
+  - icon: book
+    name: Book Chapter
+    url: https://digital-library.theiet.org/doi/10.1049/PBPC053E_ch1
+
+  - icon: link-45deg
+    name: IET Digital Library
+    url: https://digital-library.theiet.org/doi/abs/10.1049/PBPC053E_ch1
+---
+
+## Overview
+
+This book chapter provides an introduction to the fundamental concepts of optimization and surveys a variety of optimization techniques used in science, engineering, management, and decision-making problems. The chapter serves as a foundation for understanding how optimization methods can be used to identify the best possible solution among multiple feasible alternatives.
+
+Optimization plays a central role in numerous fields, including engineering design, machine learning, resource allocation, scheduling, logistics, healthcare, and artificial intelligence. The chapter introduces readers to the formulation of optimization problems and the mathematical tools commonly used to solve them.
+
+## Motivation
+
+Many real-world problems require selecting an optimal solution while satisfying various constraints. Examples include:
+
+* Minimizing cost in manufacturing systems
+* Maximizing efficiency in engineering designs
+* Resource allocation and scheduling
+* Machine learning model training
+* Healthcare and biomedical optimization problems
+
+Understanding optimization techniques is therefore essential for researchers and engineers working across disciplines.
+
+## Topics Covered
+
+The chapter introduces several important optimization paradigms:
+
+### Linear Programming
+
+Optimization of linear objective functions under linear constraints. Linear programming forms the foundation of many resource allocation and operations research problems.
+
+### Nonlinear Optimization
+
+Methods for solving problems where objective functions or constraints are nonlinear. These techniques are widely used in engineering design and machine learning applications.
+
+### Integer and Combinatorial Optimization
+
+Optimization problems involving discrete decision variables. Such methods are frequently encountered in scheduling, routing, and allocation problems.
+
+### Metaheuristic Optimization
+
+Introduction to nature-inspired and population-based optimization methods that can efficiently search large and complex solution spaces. These approaches are useful when exact solutions are computationally expensive.
+
+## Key Contributions
+
+* Introduced the fundamental principles of optimization.
+* Discussed formulation of optimization problems including objectives and constraints.
+* Presented an overview of classical optimization methodologies.
+* Surveyed modern optimization approaches and their applications.
+* Provided a foundation for students and researchers entering the field of optimization.
+
+## Research Significance
+
+Optimization is one of the mathematical foundations underlying modern machine learning, artificial intelligence, operations research, and engineering design. This chapter was written to provide an accessible introduction to the field and to bridge theoretical concepts with practical engineering applications.
+
+The knowledge presented in this chapter later influenced my research in machine learning, physiological computing, computer vision, and healthcare AI, where optimization plays a critical role in model training and system design.
+
+## Book Chapter
+
+**Trishna Saikia**, Koushlendra Kumar Singh, Sergey Vityazev, and Akbar Sheikh Akbar.
+
+*Introduction to Various Optimization Techniques.*
+
+Book Chapter published in the IET Digital Library.
+
+Available at:
+https://digital-library.theiet.org/doi/10.1049/PBPC053E_ch1

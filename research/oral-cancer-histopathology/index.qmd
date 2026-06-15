@@ -1,0 +1,102 @@
+---
+title: "An Ensemble Technique for Classification of Oral Cancer by Using Histopathological Imaging"
+
+author:
+  - Trishna Saikia
+  - Ashutosh Dhamaniya
+  - Puneet Gupta
+  - Koushlendra Kumar Singh
+
+date: "2024-01-01"
+
+slug: oral-cancer-histopathology
+
+categories:
+  - research
+  - oral cancer
+  - histopathology
+  - medical imaging
+  - ensemble learning
+  - deep learning
+
+description: "Proceedings of ICICCT 2024"
+
+summary: "An ensemble learning framework for automatic oral cancer classification using histopathological images."
+
+subtitle: "Histopathological image analysis for oral cancer diagnosis using ensemble deep learning."
+
+image: featured.jpg
+
+links:
+  - icon: file-richtext-fill
+    name: Publication
+    url: https://doi.org/10.1007/978-981-97-4359-9_66
+
+  - icon: link-45deg
+    name: Springer
+    url: https://link.springer.com/chapter/10.1007/978-981-97-4359-9_66
+---
+
+## Overview
+
+This work presents an automated framework for **oral cancer classification using histopathological images**. The proposed approach employs an ensemble learning strategy that combines the strengths of multiple deep learning models to improve classification performance and diagnostic reliability.
+
+The study was published as a book chapter in the proceedings of the **International Conference on Intelligent Computing and Communication Technologies (ICICCT 2024)**.
+
+## Motivation
+
+Oral cancer is among the most common forms of cancer worldwide, particularly in developing countries. Early diagnosis plays a crucial role in improving patient survival rates and treatment outcomes.
+
+Histopathological examination remains the gold standard for oral cancer diagnosis. However, manual interpretation of microscopic tissue images is labor-intensive and can be influenced by inter-observer variability. Automated computer-aided diagnostic systems can assist pathologists by providing fast, consistent, and objective analysis.
+
+## Method
+
+The proposed framework utilizes an **ensemble learning approach** for histopathological image classification.
+
+### 1. Histopathological Image Processing
+
+Microscopic tissue images are preprocessed to improve visual quality and highlight diagnostically relevant structures.
+
+### 2. Deep Feature Extraction
+
+Multiple deep learning models are employed to learn discriminative representations from histopathological images.
+
+### 3. Ensemble Classification
+
+Predictions from individual models are combined through an ensemble strategy, allowing the framework to leverage complementary strengths of different architectures and improve overall classification accuracy.
+
+## Key Contributions
+
+* Developed an automated oral cancer classification system using histopathological images.
+* Investigated ensemble deep learning techniques for medical image analysis.
+* Reduced dependence on manual feature engineering.
+* Improved classification robustness through model aggregation.
+* Demonstrated the potential of AI-assisted pathology for cancer diagnosis.
+
+## Experimental Evaluation
+
+The framework was evaluated on histopathological image datasets for oral cancer classification.
+
+The experimental results demonstrated that:
+
+* Ensemble models outperform individual classifiers.
+* Deep feature representations effectively capture tissue-level characteristics.
+* Automated systems can support pathologists in cancer diagnosis workflows.
+
+## Research Significance
+
+This work contributes to the growing field of **computational pathology** and AI-assisted cancer diagnosis. By combining histopathological imaging with ensemble learning, the study highlights the potential of deep learning for improving diagnostic accuracy and reducing the workload of medical experts.
+
+The project also strengthened my research experience in medical image analysis and healthcare AI before transitioning toward physiological computing and remote health monitoring.
+
+## Publication
+
+**Trishna Saikia**, Ashutosh Dhamaniya, Puneet Gupta, and Koushlendra Kumar Singh.
+
+*An Ensemble Technique for Classification of Oral Cancer by Using Histopathological Imaging.*
+
+In: Proceedings of the **International Conference on Intelligent Computing and Communication Technologies (ICICCT 2024)**.
+
+Springer Nature.
+
+DOI: https://doi.org/10.1007/978-981-97-4359-9_66

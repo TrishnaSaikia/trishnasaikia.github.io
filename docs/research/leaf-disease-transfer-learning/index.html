@@ -6,8 +6,13 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Trishna Saikia">
+<meta name="author" content="Malho Hansdah">
+<meta name="author" content="Koushlendra Kumar Singh">
+<meta name="dcterms.date" content="2023-01-01">
+<meta name="description" content="Machine Vision and Augmented Intelligence">
 
-<title>Trishna Saikia – Trishna Saikia</title>
+<title>Computer-Aided Leaf Disease Classification Based on Logistic Regression and Transfer Learning Approach – Trishna Saikia</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,31 +31,32 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<link href="../assets/img/logo_rounded.svg" rel="icon" type="image/svg+xml">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-cad3c076bfcc671fc53733afef69da86.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d027b92793f0e8c14627b6eb5f59f998.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-cad3c076bfcc671fc53733afef69da86.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-d05f838d23f12e71ca0ff81af0cb0fe7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-791e8e40914d63bd8961a95be332afe6.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../site_libs/bootstrap/bootstrap-d05f838d23f12e71ca0ff81af0cb0fe7.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../assets/img/logo_rounded.svg" rel="icon" type="image/svg+xml">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-cad3c076bfcc671fc53733afef69da86.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-d027b92793f0e8c14627b6eb5f59f998.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-cad3c076bfcc671fc53733afef69da86.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-a8176411087270ae75f46f95c29337b1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-0725e588248750b025da6b8de4f76303.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-a8176411087270ae75f46f95c29337b1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/all.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/fontawesome6-1.2.0/latex-fontsize.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/academicons-1.9.2/all.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/academicons-1.9.2/size.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -78,12 +84,11 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<link rel="stylesheet" href="../assets/about.css">
 
 
 </head>
 
-<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
     const toggleBodyColorMode = (bsSheetEl) => {
       const mode = bsSheetEl.getAttribute("data-mode");
       const bodyEl = window.document.querySelector("body");
@@ -248,15 +253,15 @@ ul.task-list li input[type="checkbox"] {
   </script>
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../assets/img/logo_rounded.svg" alt="" class="navbar-logo light-content">
-    <img src="../assets/img/logo_rounded.svg" alt="" class="navbar-logo dark-content">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../assets/img/logo_rounded.svg" alt="" class="navbar-logo light-content">
+    <img src="../../assets/img/logo_rounded.svg" alt="" class="navbar-logo dark-content">
     </a>
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="../../index.html">
     <span class="navbar-title">Trishna Saikia</span>
     </a>
   </div>
@@ -267,170 +272,149 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../research/index.html"> 
+    <a class="nav-link" href="../../research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teaching/index.html"> 
+    <a class="nav-link" href="../../teaching/index.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../project/index.html"> 
+    <a class="nav-link" href="../../project/index.html"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../miscellaneous/index.html"> 
+    <a class="nav-link" href="../../miscellaneous/index.html"> 
 <span class="menu-text">Miscellaneous</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../assets/CV_Trishna_Saikia.pdf"> 
+    <a class="nav-link" href="../../assets/CV_Trishna_Saikia.pdf"> 
 <span class="menu-text">CV</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
-    <a href="https://github.com/TrishnaSaikia" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns">
+<div id="title-block-header-title" class="quarto-title page-columns page-full page-layout-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);">
+<h1 class="title">Computer-Aided Leaf Disease Classification Based on Logistic Regression and Transfer Learning Approach</h1>
+<p class="subtitle lead">Transfer learning and logistic regression for plant leaf disease classification.</p>
+    <div class="quarto-categories">
+        <div class="quarto-category">research</div>
+        <div class="quarto-category">plant disease detection</div>
+        <div class="quarto-category">agriculture AI</div>
+        <div class="quarto-category">transfer learning</div>
+        <div class="quarto-category">logistic regression</div>
+        <div class="quarto-category">computer vision</div>
+      </div>
+  </div>
+
+<div>
+  <div id="title-block-title-desc" class="description pt-4">
+    Machine Vision and Augmented Intelligence
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Authors</div>
+    <div class="quarto-title-meta-contents">
+             <p>Trishna Saikia </p>
+             <p>Malho Hansdah </p>
+             <p>Koushlendra Kumar Singh </p>
+          </div>
+  </div>
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">January 1, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+<div class="mt-4 d-flex flex-row flex-wrap gap-1 justify-content-left justify-content-sm-start" role="group" aria-label="Links">
+<a href="https://doi.org/10.1007/978-981-99-0189-0_33" class="btn btn-secondary text-capitalize"><i class="bi bi-file-richtext-fill me-1"></i> Publication</a>
+<a href="https://link.springer.com/chapter/10.1007/978-981-99-0189-0_33" class="btn btn-secondary text-capitalize"><i class="bi bi-link-45deg me-1"></i> Springer</a>
+</div>
+
+</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
-
-
-
-<div class="quarto-about-trestles column-page">
-  <div class="about-entity">
-    <img src="../assets/img/profile.jpg" alt="Portrait of Trishna Saikia" class="about-image
-  rounded " style="width: 14em;">
+<!-- source: https://github.com/gadenbuie/garrickadenbuie-com/blob/main/_partials/title-block-link-buttons/title-block.html -->
+<!-- 
 <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Trishna Saikia</h1>
-<p class="subtitle lead">PhD Researcher in Computer Vision, Physiological Computing, and Healthcare AI</p>
-</div>
-<div class="quarto-title-meta column-page">
-  </div>
-</header>
-    <div class="about-links">
-  <a href="https://www.linkedin.com/in/trishnasaikia/" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://github.com/TrishnaSaikia" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text"></span>
-  </a>
-  <a href="https://scholar.google.com/citations?hl=en&amp;user=G6G8ir0AAAAJ" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="ai  ai-google-scholar"></i></span>
-  </a>
-  <a href="https://orcid.org/0000-0002-3052-1689" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="ai  ai-orcid"></i></span>
-  </a>
-  <a href="mailto:trishnasaikia2521@gmail.com" class="about-link" rel="" target="">
-     <span class="about-link-text"><i class="fa-solid fa-envelope" aria-label="envelope"></i></span>
-  </a>
-</div>
-  </div>
-  <div class="about-contents"><div id="hero-heading">
-<div class="h1">
-About me
-</div>
-<p>Thanks for stopping by!</p>
-<p>I am a final-year PhD researcher in Computer Science and Engineering at the <strong>Indian Institute of Technology Indore</strong>, working at the intersection of <strong>machine learning, computer vision, multimodal learning, and physiological computing</strong>.</p>
-<p>My research focuses on developing robust AI systems for extracting physiological and behavioral information from videos and biosignals under real-world conditions. I am particularly interested in video-based physiological sensing, healthcare AI, temporal representation learning, multimodal fusion, and trustworthy machine learning.</p>
-<p>Get in touch by <a href="../contact.html">sending me a note</a>! <i class="fa-solid fa-feather-pointed" aria-label="feather-pointed"></i></p>
-</div></div>
-</div>
+<div class="quarto-title"> 
+-->
+<!-- <header id="title-block-header" class="quarto-title-block default page-columns"> -->
+<!-- <div class="quarto-title page-columns page-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);"> -->
 
-<section id="research-profile" class="level2">
-<h2 data-anchor-id="research-profile">Research profile</h2>
-<div class="grid">
-<div id="about-me-1" class="g-col-6">
-<p><strong>Building AI systems that understand human physiology from videos and biosignals.</strong></p>
-<p>During my PhD, I have worked on remote physiological sensing methods for estimating <strong>heart rate, blood pressure, respiratory rate, oxygen saturation, and pain-related responses</strong> using face videos, rPPG signals, PPG signals, and multimodal physiological data.</p>
-<p>My work includes the design of temporal convolutional networks, transformer-based architectures, cross-modal knowledge distillation frameworks, multimodal fusion strategies, and self-supervised or weakly supervised learning methods for healthcare applications.</p>
-<ul class="fa-ul">
-<li>
-<span class="fa-li"><i class="fa-solid fa-heart-pulse"></i></span>Remote physiological sensing from videos and biosignals
-</li>
-<li>
-<span class="fa-li"><i class="fa-solid fa-brain"></i></span>Machine learning, computer vision, and multimodal learning
-</li>
-<li>
-<span class="fa-li"><i class="fa-solid fa-laptop-medical"></i></span>Healthcare AI and physiological computing
-</li>
-</ul>
-</div>
-<div id="about-me-2" class="g-col-6">
-<p>My research has led to publications in venues including <strong>IEEE TIM, ACM TIST, Digital Signal Processing, Expert Systems with Applications, ICPR, ICMI, and FG</strong>. I have also contributed to the development of large-scale physiological video datasets for blood pressure, respiratory rate, and SpO₂ estimation.</p>
-<ul class="fa-ul">
-<li>
-<span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>PhD in Computer Science and Engineering, IIT Indore, expected 2026
-</li>
-<li>
-<span class="fa-li"><i class="fa-solid fa-award"></i></span>Prime Minister Research Fellow, Government of India
-</li>
-<li>
-<span class="fa-li"><i class="fa-solid fa-award"></i></span>India RISE Fellow, Johns Hopkins University, Gupta-Klinsky India Institute
-</li>
-<li>
-<span class="fa-li"><i class="fa-solid fa-globe"></i></span>Visiting Research Scholar, University of Turku, Finland
-</li>
-</ul>
-</div>
-</div>
-<!-- end grid -->
-</section>
-<section id="research-interests" class="level2">
-<h2 data-anchor-id="research-interests">Research interests</h2>
-<div class="grid">
-<section id="physiological-sensing" class="level4 g-col-3">
-<h4 data-anchor-id="physiological-sensing">Physiological Sensing</h4>
-<p>rPPG-based estimation of heart rate, blood pressure, respiratory rate, and oxygen saturation from face videos and biosignals.</p>
-</section>
-<section id="computer-vision" class="level4 g-col-3">
-<h4 data-anchor-id="computer-vision">Computer Vision</h4>
-<p>Video-based analysis of physiological and behavioral signals under motion, illumination, compression, and real-world variations.</p>
-</section>
-<section id="multimodal-learning" class="level4 g-col-3">
-<h4 data-anchor-id="multimodal-learning">Multimodal Learning</h4>
-<p>Fusion of visual, temporal, and physiological modalities for healthcare and affective computing applications.</p>
-</section>
-<section id="healthcare-ai" class="level4 g-col-3">
-<h4 data-anchor-id="healthcare-ai">Healthcare AI</h4>
-<p>Robust, trustworthy, and deployable AI systems for non-contact health monitoring and biomedical signal analysis.</p>
-</section>
-</div>
-</section>
-<section id="selected-highlights" class="level2">
-<h2 data-anchor-id="selected-highlights">Selected highlights</h2>
-<div class="grid">
-<section id="publications" class="level4 g-col-3">
-<h4 data-anchor-id="publications">Publications</h4>
-<p>14 peer-reviewed publications in journals and conferences.</p>
-</section>
-<section id="datasets" class="level4 g-col-3">
-<h4 data-anchor-id="datasets">Datasets</h4>
-<p>Physiological video datasets covering heart rate, blood pressure, respiratory rate, and SpO₂ estimation.</p>
-</section>
-<section id="fellowship" class="level4 g-col-3">
-<h4 data-anchor-id="fellowship">Fellowship</h4>
-<p>Prime Minister Research Fellow, India RISE Fellow, and Erasmus+ Visiting Research Scholar.</p>
-</section>
-<section id="mentoring" class="level4 g-col-3">
-<h4 data-anchor-id="mentoring">Mentoring</h4>
-<p>Experience in teaching, mentoring, and interdisciplinary research collaboration.</p>
-</section>
-</div>
 
+
+<section id="overview" class="level2">
+<h2 class="anchored" data-anchor-id="overview">Overview</h2>
+<p>This work presents a computer-aided framework for automatic plant leaf disease classification using a combination of <strong>transfer learning</strong> and <strong>logistic regression</strong>. The proposed system leverages deep feature representations learned from pre-trained convolutional neural networks and employs a lightweight classification model for efficient disease recognition.</p>
+<p>The work was published as a book chapter in <strong>Machine Vision and Augmented Intelligence</strong>, Lecture Notes in Electrical Engineering, Springer, 2023.</p>
+</section>
+<section id="motivation" class="level2">
+<h2 class="anchored" data-anchor-id="motivation">Motivation</h2>
+<p>Plant diseases significantly impact agricultural productivity and food security worldwide. Early and accurate identification of leaf diseases can help farmers take timely corrective measures and reduce crop losses.</p>
+<p>Traditional manual inspection methods are labor-intensive and often require expert knowledge. Advances in computer vision and deep learning have created opportunities for automated plant disease diagnosis systems that can support precision agriculture and smart farming. Transfer learning is particularly useful in such applications because it allows robust feature extraction even when limited labeled agricultural datasets are available.</p>
+</section>
+<section id="method" class="level2">
+<h2 class="anchored" data-anchor-id="method">Method</h2>
+<p>The proposed framework consists of two major stages:</p>
+<section id="transfer-learning-based-feature-extraction" class="level3">
+<h3 class="anchored" data-anchor-id="transfer-learning-based-feature-extraction">1. Transfer Learning-Based Feature Extraction</h3>
+<p>A pre-trained deep convolutional neural network is used to extract discriminative visual features from leaf images. Transfer learning enables the model to utilize knowledge learned from large-scale image datasets and adapt it to agricultural disease classification tasks.</p>
+</section>
+<section id="logistic-regression-classification" class="level3">
+<h3 class="anchored" data-anchor-id="logistic-regression-classification">2. Logistic Regression Classification</h3>
+<p>The extracted deep features are provided to a logistic regression classifier that predicts the disease category. Logistic regression offers a simple and computationally efficient alternative while benefiting from the rich feature representations generated by the deep network.</p>
+</section>
+</section>
+<section id="key-contributions" class="level2">
+<h2 class="anchored" data-anchor-id="key-contributions">Key Contributions</h2>
+<ul>
+<li>Developed an automated framework for plant leaf disease classification.</li>
+<li>Combined transfer learning and logistic regression for efficient disease recognition.</li>
+<li>Reduced dependence on handcrafted image features.</li>
+<li>Demonstrated the usefulness of deep feature representations in agricultural applications.</li>
+<li>Contributed to AI-assisted disease monitoring for smart agriculture.</li>
+</ul>
+</section>
+<section id="experimental-evaluation" class="level2">
+<h2 class="anchored" data-anchor-id="experimental-evaluation">Experimental Evaluation</h2>
+<p>The framework was evaluated on plant leaf image datasets containing healthy and diseased leaves. Experimental results demonstrated that transfer learning-based representations significantly improved classification performance compared to conventional feature-engineering approaches.</p>
+<p>The study showed that combining deep feature extraction with lightweight classifiers can achieve strong performance while maintaining computational efficiency.</p>
+</section>
+<section id="research-significance" class="level2">
+<h2 class="anchored" data-anchor-id="research-significance">Research Significance</h2>
+<p>This work contributes to the growing field of <strong>AI for Agriculture</strong> by exploring how computer vision and transfer learning can be applied to plant disease diagnosis. Automated disease detection systems can assist farmers in monitoring crop health, reducing yield losses, and improving agricultural sustainability.</p>
+<p>The project also strengthened my experience in computer vision, image classification, and transfer learning before transitioning into medical imaging and physiological computing research.</p>
+</section>
+<section id="publication" class="level2">
+<h2 class="anchored" data-anchor-id="publication">Publication</h2>
+<p><strong>Trishna Saikia</strong>, <strong>Malho Hansdah</strong>, and <strong>Koushlendra Kumar Singh</strong>.</p>
+<p><em>Computer-Aided Leaf Disease Classification Based on Logistic Regression and Transfer Learning Approach.</em></p>
+<p>In: <strong>Machine Vision and Augmented Intelligence</strong>, Lecture Notes in Electrical Engineering, Springer Nature Singapore, 2023.</p>
+<p>DOI: https://doi.org/10.1007/978-981-99-0189-0_33</p>
 
 
 </section>
@@ -451,6 +435,13 @@ About me
       window.document.body.appendChild(a);
     }
     setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
@@ -854,7 +845,7 @@ About me
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="../contact.html">
+    <a class="nav-link" href="../../contact.html">
 <p>Contact</p>
 </a>
   </li>  

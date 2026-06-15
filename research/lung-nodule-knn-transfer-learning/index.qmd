@@ -1,0 +1,86 @@
+---
+title: "Classification of Lung Nodules based on Transfer Learning with K-Nearest Neighbor (KNN)"
+
+author:
+  - Trishna Saikia
+  - Malho Hansdah
+  - Koushlendra Kumar Singh
+  - Manish Kumar Bajpai
+
+date: "2022-06-15"
+
+slug: lung-nodule-knn-transfer-learning
+
+categories:
+  - research
+  - lung nodule
+  - transfer learning
+  - KNN
+  - medical imaging
+  - deep learning
+
+description: "IEEE International Symposium on Technology (IST 2022)"
+
+summary: "A transfer learning framework combined with K-Nearest Neighbor classification for lung nodule categorization from CT scan images."
+
+subtitle: "Transfer learning and KNN-based classification of lung nodules from CT scans."
+
+image: featured.jpg
+
+links:
+  - icon: file-richtext-fill
+    name: Publication
+    url: https://ieeexplore.ieee.org/document/9827668
+
+  - icon: link-45deg
+    name: IEEE Xplore
+    url: https://ieeexplore.ieee.org/abstract/document/9827668
+---
+
+## Overview
+
+This work presents a lung nodule classification framework that combines **deep transfer learning** with the **K-Nearest Neighbor (KNN)** classifier for automated analysis of lung CT scan images. The proposed approach leverages feature representations learned by pre-trained deep neural networks and uses KNN as the final classification model to distinguish different categories of lung tumors.
+
+The paper was presented at the **2022 IEEE International Symposium on Technology (IST 2022)**.
+
+## Motivation
+
+Lung cancer remains one of the leading causes of cancer-related mortality worldwide. Early identification and classification of lung nodules can significantly improve treatment planning and patient outcomes.
+
+Deep convolutional neural networks have demonstrated strong performance in medical image analysis; however, training such networks from scratch often requires large annotated datasets. Transfer learning provides an effective solution by utilizing knowledge learned from large-scale image datasets and adapting it to medical imaging tasks.
+
+## Method
+
+The proposed framework consists of two stages:
+
+1. **Transfer Learning-based Feature Extraction**
+
+   * A pre-trained convolutional neural network is used to extract discriminative representations from lung CT images.
+   * Transfer learning enables effective feature learning even with limited medical datasets.
+
+2. **K-Nearest Neighbor Classification**
+
+   * Deep features extracted from the network are provided to a KNN classifier.
+   * The classifier assigns lung nodules to their respective categories based on neighborhood similarity in the learned feature space.
+
+## Key Contributions
+
+* Developed a hybrid framework combining transfer learning and KNN classification.
+* Reduced the need for training a deep network from scratch.
+* Explored deep feature representations for lung nodule categorization.
+* Demonstrated the effectiveness of combining learned deep features with classical machine learning classifiers.
+* Contributed to computer-aided diagnosis systems for lung cancer analysis.
+
+## Research Significance
+
+This work represents an important step toward integrating deep learning and traditional machine learning methods for medical image analysis. The study demonstrates how transfer learning can extract meaningful representations from CT images while lightweight classifiers such as KNN can effectively utilize those representations for classification tasks.
+
+## Publication
+
+**Trishna Saikia**, Malho Hansdah, Koushlendra Kumar Singh, and Manish Kumar Bajpai.
+
+*Classification of Lung Nodules based on Transfer Learning with K-Nearest Neighbor (KNN).*
+
+Proceedings of the **2022 IEEE International Symposium on Technology (IST 2022)**.
+
+IEEE Xplore: https://ieeexplore.ieee.org/document/9827668

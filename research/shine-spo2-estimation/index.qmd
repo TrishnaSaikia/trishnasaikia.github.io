@@ -1,0 +1,74 @@
+---
+title: "SHINE: Synergizing Transformers with Contrastive Learning for rPPG-Based SpO₂ Estimation"
+author:
+  - Vaidehi Agarwal
+  - Trishna Saikia
+  - Anup Kumar Gupta
+  - Puneet Gupta
+date: "2026-01-15"
+slug: shine-spo2-estimation
+categories:
+  - research
+  - rPPG
+  - SpO2
+  - transformer
+  - contrastive learning
+  - healthcare AI
+description: "Expert Systems with Applications"
+summary: "A transformer-inspired and contrastive learning-based framework for instantaneous and contactless SpO₂ estimation from facial videos."
+subtitle: "Transformer-inspired learning for contactless SpO₂ estimation from rPPG signals."
+image: featured.jpg
+links:
+  - icon: file-richtext-fill
+    name: Publication
+    url: https://doi.org/10.1016/j.eswa.2025.129190
+  - icon: link-45deg
+    name: ScienceDirect
+    url: https://www.sciencedirect.com/science/article/pii/S0957417425028064
+---
+
+## Overview
+
+**SHINE** is a contactless framework for estimating blood oxygen saturation (**SpO₂**) from facial videos using remote photoplethysmography (**rPPG**) signals. The work addresses key limitations of existing rPPG-based SpO₂ estimation methods, including their dependence on hand-crafted features, limited ability to model temporal patterns, and weak generalization across diverse skin tones.
+
+The paper was published in **Expert Systems with Applications**, Volume 296, Part D, 15 January 2026. The DOI is [10.1016/j.eswa.2025.129190](https://doi.org/10.1016/j.eswa.2025.129190).
+
+## Motivation
+
+SpO₂ is an important physiological indicator for monitoring respiratory and cardiovascular health. Conventional pulse oximeters require direct skin contact, which can be limiting in remote monitoring, neonatal care, infectious disease settings, and other scenarios where non-contact sensing is preferred.
+
+rPPG offers a camera-based alternative by analyzing subtle color variations in facial videos. However, existing rPPG-based SpO₂ systems often rely on traditional feature engineering and may struggle with robustness, especially across different skin tones and real-world recording conditions.
+
+## Method
+
+SHINE combines three major ideas:
+
+1. **Transformer-inspired temporal modeling**
+   The model captures temporal dynamics and global patterns in rPPG-derived signals for improved SpO₂ estimation.
+
+2. **Supervised contrastive learning**
+   Contrastive learning is used to strengthen feature representation and improve the generalizability of the system.
+
+3. **Quality-weighted consolidation of RoRs**
+   SHINE computes multiple ratio-of-ratios (RoRs) from RGB channel combinations and combines them using a quality-aware strategy, giving more importance to less noisy RoR estimates.
+
+## Key Contributions
+
+- Proposed a transformer-inspired framework for instantaneous and contactless SpO₂ estimation from rPPG signals.
+- Used supervised contrastive learning to improve RoR feature representation.
+- Incorporated multiple RGB channel ratio-of-ratios to better handle skin-tone-dependent light absorption differences.
+- Introduced a quality-weighted consolidation strategy for reliable SpO₂ prediction.
+- Presented the **SpO₂-rPPG dataset**, consisting of facial videos with corresponding SpO₂ measurements from subjects with diverse skin tones.
+- Demonstrated improved performance over existing methods on the proposed dataset and public datasets including PURE and MSPM.
+
+## Dataset
+
+The work introduces the **SpO₂-rPPG dataset**, a large-scale facial video dataset for rPPG-based SpO₂ estimation. It contains **305 facial videos** recorded for **90 seconds**, along with pulse rate and SpO₂ measurements. The dataset includes subjects with diverse skin tones, supporting research on fairness and generalization in contactless physiological sensing.
+
+## Publication
+
+**Vaidehi Agarwal**, **Trishna Saikia**, Anup Kumar Gupta, and Puneet Gupta.
+“SHINE: Synergizing Transformers with Contrastive Learning for Thriving rPPG-Based SpO₂ Estimation.”
+*Expert Systems with Applications*, Volume 296, Part D, 129190, 2026.
+
+DOI: [10.1016/j.eswa.2025.129190](https://doi.org/10.1016/j.eswa.2025.129190)

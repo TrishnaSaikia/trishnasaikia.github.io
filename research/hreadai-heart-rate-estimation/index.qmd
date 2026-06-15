@@ -1,0 +1,106 @@
+---
+title: "HREADAI: Heart Rate Estimation From Face Mask Videos by Consolidating Eulerian and Lagrangian Approaches"
+author:
+  - Trishna Saikia
+  - Lokendra Birla
+  - Anup Kumar Gupta
+  - Puneet Gupta
+date: "2023-11-01"
+slug: hreadai-heart-rate-estimation
+categories:
+  - research
+  - rPPG
+  - heart rate estimation
+  - physiological computing
+  - computer vision
+  - healthcare AI
+description: "IEEE Transactions on Instrumentation and Measurement"
+summary: "A novel framework for heart rate estimation from face-mask videos by combining Eulerian and Lagrangian physiological representations."
+subtitle: "Heart rate estimation from masked face videos using Eulerian and Lagrangian signal fusion."
+image: featured.jpg
+
+links:
+
+    - icon: file-richtext-fill
+      name: Publication
+      url: https://ieeexplore.ieee.org/abstract/document/10322664
+
+    - icon: link-45deg
+      name: IEEE Xplore
+      url: https://ieeexplore.ieee.org/document/10322664
+
+---
+
+## Overview
+
+**HREADAI** is a novel remote physiological sensing framework for estimating heart rate from videos of individuals wearing face masks. The work addresses a critical challenge that emerged during and after the COVID-19 pandemic, where traditional rPPG methods relying on full-face visibility experienced significant performance degradation due to facial occlusions.
+
+The framework combines **Eulerian** and **Lagrangian** representations of physiological information to robustly estimate heart rate from masked facial videos.
+
+The work was published in **IEEE Transactions on Instrumentation and Measurement (IEEE TIM)** in 2023.
+
+## Motivation
+
+Remote photoplethysmography (rPPG) enables contactless heart rate monitoring by analyzing subtle physiological changes captured in facial videos. However, most existing approaches assume that large facial regions are visible and therefore struggle when subjects wear masks.
+
+To overcome this limitation, HREADAI investigates whether physiological information can still be reliably recovered from partially visible facial regions by jointly exploiting:
+
+* Color-based physiological variations (Eulerian information)
+* Motion-based physiological variations (Lagrangian information)
+
+The study demonstrates that combining these complementary cues leads to more robust heart rate estimation under facial occlusion.
+
+## Method
+
+The proposed framework consists of four major stages:
+
+### 1. Facial Region Localization
+
+Facial landmarks are detected using MediaPipe to identify visible facial regions despite mask-induced occlusion.
+
+### 2. Eulerian Physiological Signal Extraction
+
+The Eulerian branch extracts subtle color variations caused by blood volume changes. These variations contain cardiac information that can be transformed into pulse signals.
+
+### 3. Lagrangian Physiological Signal Extraction
+
+The Lagrangian branch tracks minute facial motions associated with cardiovascular activity using feature-point motion trajectories.
+
+### 4. Quality-Aware Signal Fusion
+
+Signals obtained from both branches are evaluated using quality measures and combined to generate a robust heart rate estimate. The fusion mechanism allows the framework to exploit complementary physiological information under varying recording conditions.
+
+## Key Contributions
+
+* Proposed one of the first heart rate estimation frameworks specifically designed for masked-face videos.
+* Introduced a hybrid Eulerian-Lagrangian physiological sensing framework.
+* Demonstrated that motion-based physiological information can complement color-based rPPG signals.
+* Developed a quality-aware fusion strategy for reliable heart rate estimation.
+* Improved robustness against facial occlusions introduced by masks.
+* Established an effective framework for contactless physiological monitoring in real-world conditions.
+
+## Experimental Evaluation
+
+The framework was evaluated on facial videos recorded under mask-wearing conditions and compared against state-of-the-art heart rate estimation approaches.
+
+Experimental results demonstrated that:
+
+* Eulerian and Lagrangian signals provide complementary physiological information.
+* Fusion significantly improves estimation accuracy compared to individual modalities.
+* Reliable heart rate estimation remains possible even when large facial regions are occluded by masks.
+
+## Research Significance
+
+HREADAI represents one of the earliest efforts to systematically investigate physiological sensing from masked facial videos. The work demonstrates that combining multiple physiological representations can substantially improve robustness and generalization in remote health monitoring systems.
+
+The ideas introduced in HREADAI later influenced subsequent research directions in respiratory rate estimation, blood pressure estimation, SpO₂ estimation, and multimodal physiological computing.
+
+## Publication
+
+**Trishna Saikia**, Lokendra Birla, Anup Kumar Gupta, and Puneet Gupta.
+
+*HREADAI: Heart Rate Estimation From Face Mask Videos by Consolidating Eulerian and Lagrangian Approaches.*
+
+**IEEE Transactions on Instrumentation and Measurement (TIM)**, 2023.
+
+DOI: https://doi.org/10.1109/TIM.2023.3336118

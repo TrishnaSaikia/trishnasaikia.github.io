@@ -1,0 +1,121 @@
+---
+title: "PainXtract: A Multimodal System for Multiclass Pain Classification Using Physiological Signals"
+
+author:
+  - Anup Kumar Gupta
+  - Trishna Saikia
+  - Puneet Gupta
+
+date: "2025-10-01"
+
+slug: painxtract-multimodal-pain-classification
+
+categories:
+  - research
+  - pain assessment
+  - multimodal learning
+  - physiological computing
+  - healthcare AI
+  - affective computing
+
+description: "International Conference on Multimodal Interaction (ICMI)"
+
+summary: "A multimodal physiological computing framework for automatic multiclass pain classification using biosignals."
+
+subtitle: "Multiclass pain recognition through multimodal physiological signal analysis."
+
+image: featured.jpg
+
+links:
+  - icon: file-richtext-fill
+    name: Publication
+    url: https://dl.acm.org/doi/10.1145/3747327.3764792
+
+  - icon: link-45deg
+    name: ACM Digital Library
+    url: https://dl.acm.org/doi/full/10.1145/3747327.3764792
+---
+
+## Overview
+
+**PainXtract** is a multimodal physiological computing framework designed for automatic pain assessment using physiological signals. The system leverages complementary information from multiple biosignals to classify pain into multiple intensity levels, enabling objective and continuous pain monitoring.
+
+The work was presented at the **27th International Conference on Multimodal Interaction (ICMI 2025)** and contributes to the growing field of AI-assisted pain assessment and affective computing.
+
+## Motivation
+
+Pain is one of the most important indicators of a patient's health status, yet it is often assessed using self-reported scales that can be subjective, inconsistent, or impossible to obtain from certain patient populations such as:
+
+* Neonates
+* Elderly patients
+* Sedated patients
+* Individuals with communication impairments
+
+Physiological signals provide an alternative pathway for objective pain assessment. However, individual physiological modalities often capture only part of the body's response to pain. PainXtract was developed to combine multiple physiological signals and exploit their complementary information for robust pain recognition.
+
+## Method
+
+The proposed framework utilizes multiple physiological modalities:
+
+### 1. Blood Volume Pulse (BVP)
+
+BVP captures cardiovascular responses associated with pain-induced autonomic nervous system activation.
+
+### 2. Electrodermal Activity (EDA)
+
+EDA measures skin conductance changes caused by sympathetic nervous system responses and is strongly associated with stress and pain.
+
+### 3. Respiration (RESP)
+
+Respiratory patterns often change under painful conditions and provide valuable information regarding physiological distress.
+
+### 4. Oxygen Saturation (SpO₂)
+
+SpO₂ signals provide additional physiological context and contribute complementary information to the multimodal system.
+
+### 5. Multimodal Fusion
+
+PainXtract combines modality-specific information through a multimodal learning framework to improve multiclass pain classification performance compared with individual modalities.
+
+## Key Contributions
+
+* Proposed a multimodal physiological computing framework for automatic pain assessment.
+* Developed a multiclass pain classification system capable of distinguishing different pain levels.
+* Integrated cardiovascular, electrodermal, respiratory, and oxygen saturation signals.
+* Demonstrated the effectiveness of multimodal fusion over single-modality approaches.
+* Contributed to the development of objective pain monitoring systems for healthcare applications.
+
+## Experimental Evaluation
+
+The framework was evaluated on physiological recordings collected under different pain conditions.
+
+Key findings include:
+
+* Multimodal fusion consistently outperformed individual physiological modalities.
+* Electrodermal Activity (EDA) emerged as one of the most informative pain-related signals.
+* Combining cardiovascular, respiratory, and electrodermal information improved overall classification performance.
+* The system demonstrated the potential for real-time and non-invasive pain assessment.
+
+## Research Significance
+
+PainXtract extends physiological computing beyond traditional vital-sign estimation and explores the use of physiological signals for affective and behavioral state understanding.
+
+The work contributes toward the development of:
+
+* Intelligent healthcare monitoring systems
+* AI-assisted pain management tools
+* Personalized healthcare technologies
+* Human-centered physiological computing systems
+
+This research also represents an important step toward automated pain assessment in clinical environments where reliable self-reporting may not be available.
+
+## Publication
+
+Anup Kumar Gupta, **Trishna Saikia**, and Puneet Gupta.
+
+*PainXtract: A Multimodal System for Multiclass Pain Classification Using Physiological Signals.*
+
+Proceedings of the **27th International Conference on Multimodal Interaction (ICMI 2025)**.
+
+ACM Digital Library:
+https://dl.acm.org/doi/10.1145/3747327.3764792

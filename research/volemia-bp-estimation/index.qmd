@@ -1,0 +1,40 @@
+---
+title: "VOLEMIA: Non-Invasive Blood Pressure Estimation Using Temporal-Spectral Convolutional Network"
+author:
+  - Trishna Saikia
+  - Satwik Vankayalapati
+  - Puneet Gupta
+  - Pasi Liljeberg
+date: "2025-01-01"
+slug: volemia-bp-estimation
+categories:
+  - research
+  - blood pressure
+  - PPG
+  - healthcare AI
+description: "Digital Signal Processing"
+summary: "A temporal-spectral convolutional network for non-invasive blood pressure estimation from PPG signals."
+subtitle: "A temporal-spectral convolutional network for non-invasive blood pressure estimation from PPG signals."
+image: featured.jpg
+links:
+  - icon: file-richtext-fill
+    name: Publication
+    url: https://doi.org/10.1016/j.dsp.2025.105393
+---
+
+## Abstract
+
+This work proposes **VOLEMIA**, a non-invasive blood pressure estimation framework based on temporal-spectral learning from PPG signals. The method combines pulse-based decomposition and physiological signal enhancement to improve systolic and diastolic blood pressure estimation.
+
+## Key Contributions
+
+- Developed a temporal-spectral convolutional network for SBP and DBP estimation.
+- Combined temporal waveform information with spectral representations.
+- Evaluated the method on physiological signal datasets.
+- Demonstrated promising performance for non-invasive blood pressure monitoring.
+
+## Publication
+
+**Trishna Saikia**, Satwik Vankayalapati, Puneet Gupta, and Pasi Liljeberg.
+“VOLEMIA: Non-Invasive Blood Pressure Estimation Using Temporal-Spectral Convolutional Network.”
+*Digital Signal Processing*, 2025.

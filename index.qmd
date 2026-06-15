@@ -2,14 +2,14 @@
 title: "Trishna Saikia"
 pagetitle: "Trishna Saikia"
 subtitle: "PhD Researcher in Computer Vision, Physiological Computing, and Healthcare AI"
-image: assets/img/profile.jpg
+image: assets/img/Profile_2.png
 image-alt: "Portrait of Trishna Saikia"
 
 twitter-card:
   title: Trishna Saikia
   description: |
     PhD researcher working on machine learning, computer vision, multimodal learning, and physiological computing.
-  image: assets/img/profile.jpg
+  image: assets/img/Profile_2.png
 
 about:
   template: solana
@@ -58,9 +58,9 @@ I am a final-year PhD researcher in Computer Science and Engineering at IIT Indo
 
 My work focuses on extracting physiological and behavioral information from videos and biosignals for applications in healthcare, including heart rate, blood pressure, respiration, oxygen saturation, and pain analysis.
 
-I am a Prime Minister Research Fellow (PMRF) and currently a Visiting Research Scholar at the University of Turku, Finland.
+I am a Prime Minister Research Fellow (PMRF), an India RISE Fellow, and currently a Visiting Research Scholar at the University of Turku, Finland.
 
-[Learn more about me &rarr;](about/){.about-links .subtitle}
+[Learn more about me &rarr;](about/index.html){.about-links .subtitle}
 
 :::
 <!-- hero-heading -->

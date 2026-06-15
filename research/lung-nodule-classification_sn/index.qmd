@@ -1,0 +1,62 @@
+---
+title: "An Automatic Lung Nodule Classification System Based on Hybrid Transfer Learning Approach"
+author:
+  - Trishna Saikia
+  - Ranjeet Kumar
+  - Dilip Kumar
+  - Koushlendra Kumar Singh
+date: "2022-07-01"
+slug: lung-nodule-classification
+categories:
+  - research
+  - lung nodule
+  - medical imaging
+  - transfer learning
+  - deep learning
+  - healthcare AI
+description: "SN Computer Science"
+summary: "A hybrid transfer learning-based system for classifying lung nodules from CT scan images into different lung cancer categories."
+subtitle: "Hybrid transfer learning for lung nodule classification from CT scan images."
+image: featured.jpg
+links:
+  - icon: file-richtext-fill
+    name: Publication
+    url: https://doi.org/10.1007/s42979-022-01167-0
+  - icon: link-45deg
+    name: Springer
+    url: https://link.springer.com/article/10.1007/s42979-022-01167-0
+---
+
+## Overview
+
+This work presents an automatic lung nodule classification system based on a **hybrid transfer learning approach**. The study focuses on classifying lung-patient CT scan images into four categories: **small-cell carcinoma**, **adenocarcinoma**, **squamous cell carcinoma**, and **large-cell carcinoma**.
+
+The paper was published in **SN Computer Science**, Volume 3, Article 272, in 2022.
+
+## Motivation
+
+Lung cancer is one of the leading causes of cancer-related mortality worldwide. Early and accurate classification of lung nodules from CT images can support clinical decision-making and assist radiologists in identifying different lung cancer subtypes.
+
+Manual analysis of CT scans is time-consuming and may vary across experts. Therefore, automated computer-aided diagnosis systems based on deep learning and transfer learning can provide useful support for medical image analysis.
+
+## Method
+
+The proposed system uses a **hybrid transfer learning strategy** for lung nodule classification. Transfer learning enables the model to benefit from representations learned by deep convolutional neural networks on large-scale image datasets, which is particularly useful when medical image datasets are limited.
+
+The approach combines feature extraction and classification strategies to improve the representation of CT scan images and classify lung nodules into clinically relevant categories.
+
+## Key Contributions
+
+- Developed an automatic lung nodule classification framework using CT scan images.
+- Applied a hybrid transfer learning strategy for medical image classification.
+- Classified lung nodules into four lung cancer categories.
+- Demonstrated the usefulness of deep learning-based computer-aided diagnosis for lung cancer analysis.
+- Contributed to early research experience in medical imaging and healthcare AI.
+
+## Publication
+
+**Trishna Saikia**, Ranjeet Kumar, Dilip Kumar, and Koushlendra Kumar Singh.
+“An Automatic Lung Nodule Classification System Based on Hybrid Transfer Learning Approach.”
+*SN Computer Science*, Volume 3, Article 272, 2022.
+
+DOI: [10.1007/s42979-022-01167-0](https://doi.org/10.1007/s42979-022-01167-0)

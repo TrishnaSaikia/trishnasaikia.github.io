@@ -1,0 +1,115 @@
+---
+title: "Exploring Remote Photoplethysmography for Neonatal Pain Detection from Facial Videos"
+
+author:
+  - Ashutosh Dhamaniya
+  - Anup Kumar Gupta
+  - Trishna Saikia
+  - Puneet Gupta
+
+date: "2026-04-28"
+
+slug: neonatal-pain-rppg
+
+categories:
+  - research
+  - neonatal pain detection
+  - rPPG
+  - physiological computing
+  - healthcare AI
+  - multimodal learning
+
+description: "arXiv Preprint"
+
+summary: "A non-contact neonatal pain detection framework using remote photoplethysmography extracted from facial videos."
+
+subtitle: "Leveraging rPPG signals and multimodal information for objective neonatal pain assessment."
+
+image: featured.jpg
+
+links:
+  - icon: file-richtext-fill
+    name: arXiv
+    url: https://arxiv.org/abs/2604.25680
+
+  - icon: link-45deg
+    name: Paper
+    url: https://arxiv.org/abs/2604.25680
+---
+
+## Overview
+
+Pain assessment in neonates remains a challenging clinical problem because infants cannot verbally communicate their discomfort. Existing pain assessment methods often rely on manual observation by healthcare professionals, making them subjective and prone to inter-observer variability.
+
+This work introduces a novel non-contact framework that utilizes **remote photoplethysmography (rPPG)** extracted from neonatal facial videos for automated pain detection. To the best of our knowledge, this is among the first studies exploring whether physiological signals recovered from facial videos can be used for neonatal pain assessment.
+
+## Motivation
+
+Unaddressed pain in neonates can lead to adverse short-term and long-term consequences, including developmental delays and impaired growth. Traditional physiological monitoring methods rely on contact-based sensors, which may be uncomfortable for neonates and increase the risk of infection in neonatal intensive care units (NICUs). A non-contact monitoring solution could provide continuous and unobtrusive pain assessment while reducing patient burden.
+
+## Method
+
+The proposed framework consists of several stages:
+
+### 1. Neonatal Face and ROI Detection
+
+Facial regions are localized from neonatal videos, and the forehead region is selected to minimize noise caused by eye blinking and mouth movements. The forehead is further divided into multiple regions of interest (ROIs).
+
+### 2. Temporal Signal Extraction
+
+RGB temporal signals are extracted from each ROI by averaging pixel intensities across frames. Since neonatal skin exhibits different optical characteristics compared with adults, individual color channels are analyzed separately.
+
+### 3. Quality-Aware Signal Selection
+
+Not all facial regions provide reliable physiological information. Therefore, a quality metric is used to identify ROIs least affected by skin deformation and motion artifacts. Only the highest-quality temporal signals are retained for further processing.
+
+### 4. rPPG Signal Estimation
+
+Selected temporal signals are processed using blind source separation techniques to recover pulse-related physiological information. Signal-to-noise ratio (SNR) is used to identify the cleanest rPPG signal among multiple candidate clips.
+
+### 5. Pain Classification
+
+The resulting rPPG signal is used for binary pain classification. The study also investigates multimodal fusion by combining physiological information from rPPG signals with audio features extracted from neonatal crying sounds.
+
+## Key Contributions
+
+* Introduced a novel non-contact neonatal pain detection framework based on rPPG signals.
+* Demonstrated that physiological signals extracted from facial videos contain useful information for neonatal pain assessment.
+* Proposed a quality-aware ROI selection strategy for robust rPPG extraction.
+* Utilized signal-to-noise ratio for identifying the least noisy physiological signals.
+* Showed that the **blue channel** provides superior performance for neonatal rPPG estimation compared to red and green channels.
+* Demonstrated that combining rPPG and audio modalities further improves pain detection performance.
+
+## Experimental Findings
+
+Experiments were conducted on the **iCOPEvid neonatal pain dataset** using subject-independent evaluation protocols.
+
+Key observations include:
+
+* Blue-channel rPPG signals consistently outperformed other color channels.
+* Physiological information extracted from facial videos can effectively discriminate pain and no-pain conditions.
+* Multimodal fusion of rPPG and audio features achieved better performance than either modality alone.
+* Signal quality selection played a critical role in improving robustness against motion and facial deformations.
+
+## Research Significance
+
+This work extends the scope of remote physiological sensing beyond vital-sign estimation and explores its application in neonatal healthcare. The study demonstrates that subtle physiological changes captured through facial videos can serve as meaningful indicators of pain.
+
+The proposed framework opens new research directions in:
+
+* Automated neonatal pain assessment
+* Non-contact physiological monitoring in NICUs
+* Multimodal healthcare AI
+* Explainable physiological computing
+
+It also aligns with the broader goal of developing unobtrusive and patient-friendly healthcare technologies for vulnerable populations.
+
+## Publication
+
+**Ashutosh Dhamaniya**, **Anup Kumar Gupta**, **Trishna Saikia**, and **Puneet Gupta**.
+
+*Exploring Remote Photoplethysmography for Neonatal Pain Detection from Facial Videos.*
+
+arXiv preprint, 2026.
+
+Available at: https://arxiv.org/abs/2604.25680

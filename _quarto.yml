@@ -12,9 +12,9 @@ website:
 
   navbar:
     logo: assets/img/logo_rounded.svg
-    tools:
-      - icon: github
-        href: https://github.com/TrishnaSaikia
+#    tools:
+#      - icon: github
+#        href: https://github.com/TrishnaSaikia
     right:
       - text: Research
         aria-label: "Research"

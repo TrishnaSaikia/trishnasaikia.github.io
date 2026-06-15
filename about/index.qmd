@@ -1,138 +1,88 @@
 ---
-title: "Silvia Canelón"
-subtitle: Data Scientist & Journalist
-image: sidebar/avatar.png
-image-alt: "Smiling woman with a tan complexion, dark eyes, and dark long wavy hair styled to one side"
+title: "Trishna Saikia"
+subtitle: "PhD Researcher in Computer Vision, Physiological Computing, and Healthcare AI"
+image: ../assets/img/profile.jpg
+image-alt: "Portrait of Trishna Saikia"
+
 about:
   template: trestles
   image-width: 14em
   image-shape: rounded
   id: hero-heading
   links:
-    - text: "{{< fa universal-access >}}"
-      aria-label: "Accessibility statement"
-      href: accessibility.qmd
-    - text: "{{< fa brands bluesky >}}"
-      aria-label: "Bluesky"
-      href: https://bsky.app/profile/silviacanelon.com
     - icon: linkedin
       aria-label: "LinkedIn"
-      href: https://linkedin.com/in/spcanelon
+      href: https://www.linkedin.com/in/trishnasaikia/
+
     - icon: github
-      aria-label: GitHub
-      href: https://github.com/spcanelon
-    # - icon: mastodon
-    #   href: https://hachyderm.io/@spcanelon
-    - text: "{{< ai orcid >}}"
-      href: https://orcid.org/0000-0003-1709-1394
+      aria-label: "GitHub"
+      href: https://github.com/TrishnaSaikia
+
     - text: "{{< ai google-scholar >}}"
       aria-label: "Google Scholar"
-      href: https://scholar.google.com/citations?user=GAzkvpcAAAAJ&hl=en&oi=ao
+      href: https://scholar.google.com/citations?hl=en&user=G6G8ir0AAAAJ
+
+    - text: "{{< ai orcid >}}"
+      aria-label: "ORCID"
+      href: https://orcid.org/0000-0002-3052-1689
+
     - text: "{{< fa envelope >}}"
-      aria-label: Newsletter
-      href: https://buttondown.com/spcanelon
-listing:
-- id: project
-  contents: 
-    - "../project/*/index.qmd"
-    - "../project/*/index.markdown"
-    - "../project/external-items/metadata.yml"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, subtitle, image]
-  max-items: 1
-  image-height: "200"
-- id: talk
-  contents: 
-    - "../talk/*/index.qmd"
-    - "../talk/*/index.markdown"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, subtitle, image]
-  max-items: 1
-  image-height: "200"
-- id: blog
-  contents: 
-    - "../blog/*/index.qmd"
-    - "../blog/*/index.markdown"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, subtitle, image]
-  max-items: 1
-  image-height: "200"
-- id: publication
-  contents: 
-    - "../publication/*/index.qmd"
-    - "../publication/*/index.markdown"
-  sort: date desc
-  type: grid
-  grid-columns: 1
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, image]
-  max-items: 1
-  image-height: "200"
-  image-placeholder: ../publication/featured.jpg
-format: 
-  html: 
+      aria-label: "Email"
+      href: mailto:trishnasaikia2521@gmail.com
+
+format:
+  html:
     page-layout: full
 
 header-includes: >
   <link rel="stylesheet" href="../assets/about.css">
+
 resources:
   - ../assets/about.css
 ---
 
 ::: {#hero-heading}
-<div class="h1">Hey, I'm happy you're here</div>
+<div class="h1">About me</div>
 
 Thanks for stopping by!
 
-I work as a data scientist at the [Urban Health Lab](https://www.urbanhealthlab.org/) at the University of Pennsylvania. My research interests include applications of biomedical and spatial data science in the public and population health fields. 
+I am a final-year PhD researcher in Computer Science and Engineering at the **Indian Institute of Technology Indore**, working at the intersection of **machine learning, computer vision, multimodal learning, and physiological computing**.
 
-My current projects use electronic health record (EHR) and geospatial data to explore how the neighborhood environment and access to urban nature can impact the health of individuals in Philadelphia. Learn more about my research interests in [publications](/publication).
+My research focuses on developing robust AI systems for extracting physiological and behavioral information from videos and biosignals under real-world conditions. I am particularly interested in video-based physiological sensing, healthcare AI, temporal representation learning, multimodal fusion, and trustworthy machine learning.
 
-Get in touch by [sending me a note](/contact.qmd)! {{< fa feather-pointed >}}
+Get in touch by [sending me a note](../contact.qmd)! {{< fa feather-pointed >}}
 
 :::
 
-## About me
+## Research profile
 
 ::: {.grid}
 
 ::: {.g-col-6 #about-me-1}
 
-**Biomedical engineer turned informaticist, curious about all intersections of data and society.**
+**Building AI systems that understand human physiology from videos and biosignals.**
 
-I enjoy using [R](https://www.r-project.org/about.html) to optimize my data science workflow and have noticed it making guest appearances elsewhere in my life. I'm certified as an [RStudio Tidyverse Instructor](https://education.rstudio.com/trainers/people/canelon+silvia/) and am passionate about R education and data literacy as ways to build power in communities. Keep up with my R tinkering in my [blog](/blog) and presentations in [talks](/talk).
+During my PhD, I have worked on remote physiological sensing methods for estimating **heart rate, blood pressure, respiratory rate, oxygen saturation, and pain-related responses** using face videos, rPPG signals, PPG signals, and multimodal physiological data.
+
+My work includes the design of temporal convolutional networks, transformer-based architectures, cross-modal knowledge distillation frameworks, multimodal fusion strategies, and self-supervised or weakly supervised learning methods for healthcare applications.
 
 <ul class="fa-ul">
-   <li><span class="fa-li"><i class="fa-solid fa-certificate"></i></span><a href="https://education.rstudio.com/trainers/people/canelon+silvia/">Tidyverse Instructor Certification</a> ∙ RStudio, PBC ∙ 2020</li>
+   <li><span class="fa-li"><i class="fa-solid fa-heart-pulse"></i></span>Remote physiological sensing from videos and biosignals</li>
+   <li><span class="fa-li"><i class="fa-solid fa-brain"></i></span>Machine learning, computer vision, and multimodal learning</li>
+   <li><span class="fa-li"><i class="fa-solid fa-laptop-medical"></i></span>Healthcare AI and physiological computing</li>
 </ul>
 
 :::
 
 ::: {.g-col-6 #about-me-2}
 
-Prior to joining the Urban Health Lab, I developed novel data mining methods to extract meaningful information from the EHR and study health outcomes and disparities in pregnant populations. I'm particularly interested in research that combines biomedical data science with open data sources in ways that prioritize health equity in communities.
+My research has led to publications in venues including **IEEE TIM, ACM TIST, Digital Signal Processing, Expert Systems with Applications, ICPR, ICMI, and FG**. I have also contributed to the development of large-scale physiological video datasets for blood pressure, respiratory rate, and SpO₂ estimation.
 
 <ul class="fa-ul">
-   <li><span class="fa-li"><i class="fa-solid fa-certificate"></i></span><a href="https://www.med.upenn.edu/mbmi/certificate.html">Certificate in Biomedical Informatics</a> ∙ University of Pennsylvania ∙ 2019</li>
-   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>Ph.D. in Biomedical Engineering ∙ Purdue University ∙ 2018</li>
-   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>B.S. in Biomedical Engineering ∙ University of Minnesota ∙ 2012</li>
+   <li><span class="fa-li"><i class="fa-solid fa-graduation-cap"></i></span>PhD in Computer Science and Engineering, IIT Indore, expected 2026</li>
+   <li><span class="fa-li"><i class="fa-solid fa-award"></i></span>Prime Minister Research Fellow, Government of India</li>
+   <li><span class="fa-li"><i class="fa-solid fa-award"></i></span>India RISE Fellow, Johns Hopkins University, Gupta-Klinsky India Institute</li>
+   <li><span class="fa-li"><i class="fa-solid fa-globe"></i></span>Visiting Research Scholar, University of Turku, Finland</li>
 </ul>
 
 :::
@@ -140,36 +90,54 @@ Prior to joining the Urban Health Lab, I developed novel data mining methods to 
 :::
 <!-- end grid -->
 
-## Lately ...
+## Research interests
 
 :::: {.grid}
 
 ::: {.g-col-3}
-#### Projects
-::: {#project}
-:::
-[See all &rarr;](../project){.about-links .subtitle}
+#### Physiological Sensing
+rPPG-based estimation of heart rate, blood pressure, respiratory rate, and oxygen saturation from face videos and biosignals.
 :::
 
 ::: {.g-col-3}
-#### Talks
-::: {#talk}
-:::
-[See all &rarr;](../talk){.about-links .subtitle}
+#### Computer Vision
+Video-based analysis of physiological and behavioral signals under motion, illumination, compression, and real-world variations.
 :::
 
 ::: {.g-col-3}
-#### Blog
-::: {#blog}
+#### Multimodal Learning
+Fusion of visual, temporal, and physiological modalities for healthcare and affective computing applications.
 :::
-[See all &rarr;](../blog){.about-links .subtitle}
+
+::: {.g-col-3}
+#### Healthcare AI
+Robust, trustworthy, and deployable AI systems for non-contact health monitoring and biomedical signal analysis.
 :::
+
+::::
+
+## Selected highlights
+
+:::: {.grid}
 
 ::: {.g-col-3}
 #### Publications
-::: {#publication}
+14 peer-reviewed publications in journals and conferences.
 :::
-[See all &rarr;](../publication){.about-links .subtitle}
+
+::: {.g-col-3}
+#### Datasets
+Physiological video datasets covering heart rate, blood pressure, respiratory rate, and SpO₂ estimation.
+:::
+
+::: {.g-col-3}
+#### Fellowship
+Prime Minister Research Fellow,  India RISE Fellow, and Erasmus+ Visiting Research Scholar.
+:::
+
+::: {.g-col-3}
+#### Mentoring
+Experience in teaching, mentoring, and interdisciplinary research collaboration.
 :::
 
 ::::

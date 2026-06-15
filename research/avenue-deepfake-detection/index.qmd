@@ -1,0 +1,91 @@
+---
+title: "AVENUE: A Novel Deepfake Detection Method Based on Temporal Convolutional Network and rPPG Information"
+author:
+  - Lokendra Birla
+  - Trishna Saikia
+  - Puneet Gupta
+date: "2025-02-01"
+slug: avenue-deepfake-detection
+categories:
+  - research
+  - deepfake detection
+  - rPPG
+  - computer vision
+  - temporal learning
+  - healthcare AI
+description: "ACM Transactions on Intelligent Systems and Technology"
+summary: "A physiological-signal-driven deepfake detection framework leveraging stable rPPG information and Temporal Convolutional Networks."
+subtitle: "Deepfake detection using remote photoplethysmography and temporal convolutional learning."
+image: featured.jpg
+
+links:
+  - icon: file-richtext-fill
+    name: Publication
+    url: https://doi.org/10.1145/3702232
+
+  - icon: link-45deg
+    name: ACM Digital Library
+    url: https://dl.acm.org/doi/full/10.1145/3702232
+---
+
+## Overview
+
+**AVENUE** is a novel deepfake detection framework that exploits physiological information embedded in facial videos. Unlike appearance-based methods that focus on visual artifacts, AVENUE utilizes **remote Photoplethysmography (rPPG)** signals and temporal modeling to identify inconsistencies introduced during deepfake generation.
+
+The work was published in **ACM Transactions on Intelligent Systems and Technology (ACM TIST)** in 2025.
+
+## Motivation
+
+Recent deepfake generation methods based on GANs and diffusion models can produce highly realistic facial videos, making traditional appearance-based detection increasingly challenging.
+
+However, synthetic videos often fail to accurately reproduce subtle physiological patterns such as blood-volume-induced skin color changes. These physiological signals can be recovered through remote photoplethysmography (rPPG) and serve as a reliable cue for distinguishing authentic videos from manipulated ones. AVENUE was developed to exploit this observation while addressing the challenges of motion, facial deformation, and illumination-induced noise.
+
+## Method
+
+The AVENUE framework consists of three key components:
+
+### 1. Stable Clip Selection
+
+Facial motion and deformation introduce significant noise into rPPG signals. AVENUE identifies and selects relatively stable facial clips that are least affected by motion artifacts, resulting in more reliable physiological information extraction.
+
+### 2. rPPG-Based Physiological Representation
+
+The selected clips are processed to extract rPPG signals that capture subtle blood-volume changes from facial skin regions. Since deepfake generators generally do not model physiological consistency, these signals provide discriminative information for detection.
+
+### 3. Modified Temporal Convolutional Network (TCN)
+
+Instead of recurrent architectures, AVENUE employs a modified **Temporal Convolutional Network (TCN)** capable of modeling long-range temporal dependencies efficiently. This allows the framework to capture temporal inconsistencies that arise in manipulated videos.
+
+## Key Contributions
+
+* Proposed a novel rPPG-based deepfake detection framework.
+* Introduced stable clip selection to improve physiological signal quality.
+* Designed a modified Temporal Convolutional Network for long-sequence modeling.
+* Demonstrated that physiological cues provide robust information against advanced facial manipulation techniques.
+* Achieved superior performance compared with existing rPPG-based deepfake detection methods on publicly available benchmarks.
+
+## Datasets and Evaluation
+
+The framework was evaluated on publicly available deepfake datasets including:
+
+* FaceForensics++
+* Celeb-DF
+* DFDC
+
+Experimental results showed improved robustness and generalization compared to existing physiological-signal-based deepfake detection approaches.
+
+## Research Significance
+
+AVENUE demonstrates that physiological information remains a powerful cue for detecting manipulated media even as visual quality improves. The work contributes to the growing field of trustworthy AI and multimedia forensics by combining computer vision, physiological computing, and temporal deep learning.
+
+The research also established a foundation for subsequent work exploring physiological signal analysis beyond healthcare applications, extending rPPG into the domain of media authenticity verification.
+
+## Publication
+
+**Lokendra Birla**, **Trishna Saikia**, and **Puneet Gupta**.
+
+*AVENUE: A Novel Deepfake Detection Method Based on Temporal Convolutional Network and rPPG Information.*
+
+**ACM Transactions on Intelligent Systems and Technology (TIST)**, 2025.
+
+DOI: https://doi.org/10.1145/3702232

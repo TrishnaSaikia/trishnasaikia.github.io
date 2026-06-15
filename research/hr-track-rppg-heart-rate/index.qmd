@@ -1,0 +1,110 @@
+---
+title: "HR-TRACK: An rPPG Method for Heartrate Monitoring Using Temporal Convolution Networks"
+author:
+  - Lokendra Birla
+  - Sneha Shukla
+  - Trishna Saikia
+  - Puneet Gupta
+date: "2024-01-01"
+slug: hr-track-rppg-heart-rate
+categories:
+  - research
+  - rPPG
+  - heart rate estimation
+  - temporal convolution network
+  - physiological computing
+  - healthcare AI
+description: "Pattern Recognition and Machine Intelligence (PReMI 2024)"
+summary: "A Temporal Convolutional Network-based framework for robust heart rate estimation from facial videos using remote photoplethysmography."
+subtitle: "Heart rate monitoring from facial videos through temporal convolutional learning."
+image: featured.jpg
+
+links:
+  - icon: file-richtext-fill
+    name: Publication
+    url: https://doi.org/10.1007/978-3-031-78201-5_24
+
+  - icon: link-45deg
+    name: Springer
+    url: https://link.springer.com/chapter/10.1007/978-3-031-78201-5_24
+---
+
+## Overview
+
+**HR-TRACK** is a deep learning-based framework for contactless heart rate monitoring from facial videos using **remote photoplethysmography (rPPG)** and **Temporal Convolutional Networks (TCNs)**. The method is designed to robustly estimate heart rate under real-world conditions while effectively modeling temporal dependencies present in physiological signals.
+
+The work was presented at the **Pattern Recognition and Machine Intelligence (PReMI 2024)** conference and published in the Lecture Notes in Computer Science (LNCS) series by Springer.
+
+## Motivation
+
+Remote photoplethysmography enables non-contact estimation of heart rate by analyzing subtle skin color variations caused by blood volume changes. Although several conventional signal-processing and deep-learning approaches have been proposed, accurately modeling long-range temporal dependencies remains challenging, particularly in the presence of motion, illumination changes, and facial expression variations.
+
+HR-TRACK was developed to address these challenges by utilizing Temporal Convolutional Networks, which are well suited for capturing temporal patterns while maintaining efficient training and inference.
+
+## Method
+
+The proposed framework consists of the following stages:
+
+### 1. Facial Video Processing
+
+Facial regions are detected and tracked across video frames to obtain stable temporal observations containing physiological information.
+
+### 2. rPPG Signal Representation
+
+Remote physiological information is extracted from facial videos by analyzing subtle color variations associated with cardiovascular activity.
+
+### 3. Temporal Convolutional Network
+
+A Temporal Convolutional Network (TCN) is employed to model temporal relationships within the extracted physiological signals. Compared with recurrent architectures, TCNs offer:
+
+* Larger effective receptive fields
+* Stable gradient propagation
+* Efficient parallel computation
+* Improved long-range temporal modeling
+
+### 4. Heart Rate Estimation
+
+The learned temporal representations are mapped to heart rate predictions, enabling robust physiological monitoring from facial videos.
+
+## Key Contributions
+
+* Proposed a Temporal Convolutional Network-based framework for rPPG-driven heart rate estimation.
+* Investigated deep temporal modeling for physiological signal analysis.
+* Demonstrated the effectiveness of TCNs in capturing long-term cardiac dynamics.
+* Improved robustness against variations in video quality and environmental conditions.
+* Advanced the integration of deep learning and physiological computing for contactless health monitoring.
+
+## Experimental Evaluation
+
+The framework was evaluated on publicly available rPPG datasets for heart rate estimation.
+
+Experimental results demonstrated that:
+
+* Temporal convolutional learning effectively captures physiological signal dynamics.
+* TCN-based modeling improves heart rate estimation performance compared with traditional signal-processing approaches.
+* The framework generalizes well across different recording conditions and subjects.
+
+## Research Significance
+
+HR-TRACK represents an important step in the evolution of deep learning approaches for remote physiological sensing. The work explores how temporal convolutional architectures can be leveraged for physiological signal understanding and provides insights into robust heart rate estimation from videos.
+
+This research also laid the foundation for several subsequent projects in our group involving:
+
+* Blood pressure estimation from rPPG
+* Respiratory rate estimation
+* SpO₂ estimation
+* Physiological signal quality assessment
+* Multimodal physiological computing
+
+The ideas explored in HR-TRACK contributed to the broader research direction of developing reliable, real-world healthcare AI systems based on non-contact physiological sensing.
+
+## Publication
+
+Lokendra Birla, Sneha Shukla Trishna Saikia, and Puneet Gupta.
+
+*HR-TRACK: An rPPG Method for Heartrate Monitoring Using Temporal Convolution Networks.*
+
+In: **Pattern Recognition and Machine Intelligence (PReMI 2024)**.
+Lecture Notes in Computer Science (LNCS), Springer.
+
+DOI: https://doi.org/10.1007/978-3-031-78201-5_24
