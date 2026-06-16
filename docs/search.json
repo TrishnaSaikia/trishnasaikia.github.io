@@ -11,7 +11,7 @@
     "href": "about/index.html",
     "title": "Trishna Saikia",
     "section": "",
-    "text": "About me\n\nThanks for stopping by!\nI am a final-year PhD researcher in Computer Science and Engineering at the Indian Institute of Technology Indore, working at the intersection of machine learning, computer vision, multimodal learning, and physiological computing.\nMy research focuses on developing robust AI systems for extracting physiological and behavioral information from videos and biosignals under real-world conditions. I am particularly interested in video-based physiological sensing, healthcare AI, temporal representation learning, multimodal fusion, and trustworthy machine learning.\nGet in touch by sending me a note!"
+    "text": "About me\n\nThanks for stopping by!\nI am a final-year PhD researcher in Computer Science and Engineering at the Indian Institute of Technology Indore, working at the intersection of machine learning, computer vision, multimodal learning, and physiological computing.\nMy research focuses on developing robust AI systems for extracting physiological and behavioral information from videos and biosignals under real-world conditions. I am particularly interested in video-based physiological sensing, healthcare AI, temporal representation learning, multimodal fusion, and trustworthy machine learning."
   },
   {
     "objectID": "about/index.html#research-profile",
@@ -649,5 +649,138 @@
     "title": "AVENUE: A Novel Deepfake Detection Method Based on Temporal Convolutional Network and rPPG Information",
     "section": "Publication",
     "text": "Publication\nLokendra Birla, Trishna Saikia, and Puneet Gupta.\nAVENUE: A Novel Deepfake Detection Method Based on Temporal Convolutional Network and rPPG Information.\nACM Transactions on Intelligent Systems and Technology (TIST), 2025.\nDOI: https://doi.org/10.1145/3702232"
+  },
+  {
+    "objectID": "project/index.html",
+    "href": "project/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "ChatBot on NorthEast Tourism\n\n\nA chatbot prototype for tourism-related information in NorthEast India\n\n\n\nChatbot\n\nNLP\n\nTourism\n\nData Science\n\nHackathon\n\n\n\n\nApr 1, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\nSmart Face Recognizing Locking System\n\n\nAn intelligent face-recognition-based locking system using OpenCV and Arduino\n\n\n\nFace Recognition\n\nOpenCV\n\nArduino\n\nIoT\n\nSecurity System\n\n\n\n\nSep 1, 2018\n\n\n\n\n\n\n\n\n\n\n\n\n\nVehicle Tracking and Crowdedness Detection Inside the Vehicle\n\n\nComputer vision and machine learning-based public vehicle tracking and crowd estimation system\n\n\n\nComputer Vision\n\nMachine Learning\n\nYOLO\n\nAndroid\n\nOpenCV\n\n\n\n\nJul 1, 2019\n\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
+    "objectID": "project/vehicle-tracking-crowdedness/index.html",
+    "href": "project/vehicle-tracking-crowdedness/index.html",
+    "title": "Vehicle Tracking and Crowdedness Detection Inside the Vehicle",
+    "section": "",
+    "text": "A real-time vehicle tracking and crowdedness estimation system was developed using computer vision and machine learning techniques.\nThe system enables users to monitor the location of public vehicles and estimate passenger density within the vehicle through image and video-based analysis, combined with GPS tracking information."
+  },
+  {
+    "objectID": "project/vehicle-tracking-crowdedness/index.html#project-gallery",
+    "href": "project/vehicle-tracking-crowdedness/index.html#project-gallery",
+    "title": "Vehicle Tracking and Crowdedness Detection Inside the Vehicle",
+    "section": "Project Gallery",
+    "text": "Project Gallery"
+  },
+  {
+    "objectID": "project/vehicle-tracking-crowdedness/index.html#key-features",
+    "href": "project/vehicle-tracking-crowdedness/index.html#key-features",
+    "title": "Vehicle Tracking and Crowdedness Detection Inside the Vehicle",
+    "section": "Key Features",
+    "text": "Key Features\n\nReal-time public vehicle tracking\nCrowdedness estimation inside the vehicle\nYOLO-based object/person detection\nAndroid application interface\nFirebase-based backend support"
+  },
+  {
+    "objectID": "project/vehicle-tracking-crowdedness/index.html#tools-and-technologies",
+    "href": "project/vehicle-tracking-crowdedness/index.html#tools-and-technologies",
+    "title": "Vehicle Tracking and Crowdedness Detection Inside the Vehicle",
+    "section": "Tools and Technologies",
+    "text": "Tools and Technologies\n\nPython\nOpenCV\nYOLO / Darkflow\nAndroid Studio\nFirebase\nMachine Learning"
+  },
+  {
+    "objectID": "project/northeast-tourism-chatbot/index.html",
+    "href": "project/northeast-tourism-chatbot/index.html",
+    "title": "ChatBot on NorthEast Tourism",
+    "section": "",
+    "text": "This project developed a chatbot for providing tourism-related information about NorthEast India. The chatbot was created during a Data Science Hackathon organized at IIT Guwahati.\nThe goal was to make tourism information more accessible through an interactive conversational interface."
+  },
+  {
+    "objectID": "project/northeast-tourism-chatbot/index.html#youtube-video",
+    "href": "project/northeast-tourism-chatbot/index.html#youtube-video",
+    "title": "ChatBot on NorthEast Tourism",
+    "section": "YouTube Video",
+    "text": "YouTube Video\nThe video below demonstrates the chatbot developed for North-East tourism information services."
+  },
+  {
+    "objectID": "project/northeast-tourism-chatbot/index.html#key-features",
+    "href": "project/northeast-tourism-chatbot/index.html#key-features",
+    "title": "ChatBot on NorthEast Tourism",
+    "section": "Key Features",
+    "text": "Key Features\n\nTourism information support for NorthEast India\nChatbot-based user interaction\nPrototype developed during a hackathon\nTelegram bot interface"
+  },
+  {
+    "objectID": "project/northeast-tourism-chatbot/index.html#link",
+    "href": "project/northeast-tourism-chatbot/index.html#link",
+    "title": "ChatBot on NorthEast Tourism",
+    "section": "Link",
+    "text": "Link\nTelegram bot: Sangrakt Bot"
+  },
+  {
+    "objectID": "project/northeast-tourism-chatbot/index.html#tools-and-technologies",
+    "href": "project/northeast-tourism-chatbot/index.html#tools-and-technologies",
+    "title": "ChatBot on NorthEast Tourism",
+    "section": "Tools and Technologies",
+    "text": "Tools and Technologies\n\nChatbot Development\nBasic NLP\nTelegram Bot\nData Science Prototype"
+  },
+  {
+    "objectID": "project/smart-face-lock/index.html",
+    "href": "project/smart-face-lock/index.html",
+    "title": "Smart Face Recognizing Locking System",
+    "section": "",
+    "text": "This project developed a smart locking system based on face recognition. The system was designed to identify authorized users through facial features and control a physical lock mechanism.\nThe project was developed during Utkranti 1.0, organized at GUIST, Guwahati."
+  },
+  {
+    "objectID": "project/smart-face-lock/index.html#system-concept",
+    "href": "project/smart-face-lock/index.html#system-concept",
+    "title": "Smart Face Recognizing Locking System",
+    "section": "System Concept",
+    "text": "System Concept\nFace Image → Face Recognition → Authorized/Unauthorized Decision → Arduino → Lock Control"
+  },
+  {
+    "objectID": "project/smart-face-lock/index.html#key-features",
+    "href": "project/smart-face-lock/index.html#key-features",
+    "title": "Smart Face Recognizing Locking System",
+    "section": "Key Features",
+    "text": "Key Features\n\nFace recognition-based authentication\nAutomatic locking and unlocking mechanism\nIntegration of computer vision with hardware control\nPrototype implementation using OpenCV and Arduino"
+  },
+  {
+    "objectID": "project/smart-face-lock/index.html#tools-and-technologies",
+    "href": "project/smart-face-lock/index.html#tools-and-technologies",
+    "title": "Smart Face Recognizing Locking System",
+    "section": "Tools and Technologies",
+    "text": "Tools and Technologies\n\nOpenCV\nArduino\nPython\nFace Recognition\nEmbedded System Prototype"
+  },
+  {
+    "objectID": "teaching/index.html#teaching-assistantships",
+    "href": "teaching/index.html#teaching-assistantships",
+    "title": "Teaching",
+    "section": "Teaching Assistantships",
+    "text": "Teaching Assistantships\n\nMachine Learning (CS403/603)\nIndian Institute of Technology Indore\nServed as a Teaching Assistant for the undergraduate and postgraduate Machine Learning course. Responsibilities included conducting tutorial sessions, assisting students with assignments and projects, holding doubt-clearing sessions, and supporting course evaluation activities.\nTopics Covered\n\nSupervised Learning\nRegression and Classification\nDecision Trees\nSupport Vector Machines\nNeural Networks\nModel Evaluation and Validation\n\n\n\n\nSoftware Engineering (CS208/258)\nIndian Institute of Technology Indore\nAssisted in teaching Software Engineering concepts through tutorials, assignment evaluation, and student mentoring.\nTopics Covered\n\nSoftware Development Life Cycle\nRequirement Engineering\nUML and Software Design\nSoftware Testing\nAgile Development Methodologies\n\n\n\n\nPattern Recognition (CS412/612)\nIndian Institute of Technology Indore\nSupported teaching activities for Pattern Recognition and Machine Learning courses, including tutorials and practical problem-solving sessions.\nTopics Covered\n\nFeature Extraction\nStatistical Pattern Recognition\nClassification Algorithms\nClustering Techniques\nDimensionality Reduction"
+  },
+  {
+    "objectID": "teaching/index.html#workshops-and-training-activities",
+    "href": "teaching/index.html#workshops-and-training-activities",
+    "title": "Teaching",
+    "section": "Workshops and Training Activities",
+    "text": "Workshops and Training Activities\n\nSERB Karyashala on Affective Computing Using Deep Learning\nIndian Institute of Technology Indore | July 2023\nContributed to the organization and technical delivery of a national-level SERB-sponsored workshop focused on affective computing, machine learning, computer vision, and deep learning applications."
+  },
+  {
+    "objectID": "teaching/index.html#student-mentoring",
+    "href": "teaching/index.html#student-mentoring",
+    "title": "Teaching",
+    "section": "Student Mentoring",
+    "text": "Student Mentoring\nMentored undergraduate and postgraduate students on projects related to:\n\nMachine Learning\nComputer Vision\nRemote Physiological Sensing (rPPG)\nHealthcare AI\nBiomedical Signal Processing\n\nGuided students in literature review, experimentation, implementation, and scientific writing."
+  },
+  {
+    "objectID": "teaching/index.html#guest-lectures",
+    "href": "teaching/index.html#guest-lectures",
+    "title": "Teaching",
+    "section": "Guest Lectures",
+    "text": "Guest Lectures\n\nPMRF Guest Faculty\nDepartment of Information Technology, Gauhati University Institute of Science and Technology (GUIST) January 2025 – June 2026\nDelivered lectures under the Prime Minister’s Research Fellowship (PMRF) outreach initiative.\nCourses Taught - System Programming - Web Technology - Python Programming\nThe lectures focused on both theoretical foundations and hands-on programming concepts, helping undergraduate students develop practical skills.\n\n\n\nPMRF Guest Faculty\nDepartment of Computer Science and Engineering, SGSITS Indore March 2023 – December 2024\nDelivered invited lectures under the Prime Minister’s Research Fellowship (PMRF) teaching initiative.\nCourses Taught - Deep Learning\nThe sessions covered modern machine learning techniques, neural network architectures with practical demonstrations and case studies."
+  },
+  {
+    "objectID": "teaching/index.html#pmrf-guest-faculty",
+    "href": "teaching/index.html#pmrf-guest-faculty",
+    "title": "Teaching",
+    "section": "PMRF Guest Faculty",
+    "text": "PMRF Guest Faculty\nDepartment of Information Technology, Gauhati University Institute of Science and Technology (GUIST) January 2025 – June 2026\nDelivered lectures for undergraduate students in the Department of Information Technology.\nCourses Taught\n\nSystem Programming\nWeb Technology\nPython Programming\n\nThe lectures focused on both theoretical foundations and hands-on programming concepts, helping undergraduate students develop practical skills.\n\nDepartment of Computer Science and Engineering, SGSITS Indore March 2023 – December 2024\nDelivered lectures for undergraduate and postgraduate students in the Department of Computer Science and Engineering.\nCourses Taught\n\nDeep Learning\n\nThe sessions covered modern machine learning techniques, neural network architectures with practical demonstrations and case studies."
   }
 ]

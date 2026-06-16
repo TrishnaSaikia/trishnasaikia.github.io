@@ -1,0 +1,48 @@
+---
+title: "ChatBot on NorthEast Tourism"
+subtitle: "A chatbot prototype for tourism-related information in NorthEast India"
+author: ""
+date: "2018-04-01"
+citation: false
+comments: false
+toc: true
+categories: [Chatbot, NLP, Tourism, Data Science, Hackathon]
+image: featured.jpg
+---
+
+This project developed a chatbot for providing tourism-related information about NorthEast India. The chatbot was created during a Data Science Hackathon organized at IIT Guwahati.
+
+The goal was to make tourism information more accessible through an interactive conversational interface.
+
+## YouTube Video
+
+The video below demonstrates the chatbot developed for North-East tourism information services.
+
+<div style="text-align:center;">
+<iframe
+    width="800"
+    height="450"
+    src="https://www.youtube.com/embed/68_gVZ6CIRI"
+    title="NorthEast Tourism Chatbot Demo"
+    frameborder="0"
+    allowfullscreen>
+</iframe>
+</div>
+
+## Key Features
+
+- Tourism information support for NorthEast India
+- Chatbot-based user interaction
+- Prototype developed during a hackathon
+- Telegram bot interface
+
+## Link
+
+Telegram bot: [Sangrakt Bot](http://t.me/sangrakt_bot)
+
+## Tools and Technologies
+
+- Chatbot Development
+- Basic NLP
+- Telegram Bot
+- Data Science Prototype

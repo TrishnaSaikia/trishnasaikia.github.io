@@ -4,10 +4,11 @@ author: ""
 comments: false
 citation: false
 description: |
-  This porfolio includes works, software, and tools I have contributed to or designed,<br>along with openly available educational material I have created. 
-listing: 
+  A collection of selected academic and technical projects developed during my undergraduate studies,<br>
+  including computer vision-based vehicle monitoring, face-recognition-based smart locking, and a chatbot for North-East India tourism.
+listing:
   contents:
-    - "/*/index.qmd"
+    - "*/index.qmd"
     - "/*/index.markdown"
     - "/*/index.md"
     - "external-items/metadata.yml"

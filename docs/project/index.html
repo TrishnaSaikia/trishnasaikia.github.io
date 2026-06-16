@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="This is home for my research publications, each linked with  accompanying preprints, posters, and/or news pieces.">
+<meta name="author" content="">
+<meta name="description" content="A collection of selected academic and technical projects developed during my undergraduate studies,  including computer vision-based vehicle monitoring, face-recognition-based smart locking, and a chatbot for North-East India tourism.">
 
-<title>Research – Trishna Saikia</title>
+<title>Projects – Trishna Saikia</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -92,9 +93,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-title','listing-author','listing-categories','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-subtitle','listing-categories','listing-date','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description"],
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -329,7 +330,7 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../research/index.html" aria-current="page"> 
+    <a class="nav-link" href="../research/index.html"> 
 <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
@@ -337,7 +338,7 @@ window.Quarto = {
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../project/index.html"> 
+    <a class="nav-link active" href="../project/index.html" aria-current="page"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
@@ -360,7 +361,9 @@ window.Quarto = {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
@@ -374,12 +377,12 @@ window.Quarto = {
 <!-- <div class="quarto-title page-columns page-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);"> -->
 <header id="title-block-header" class="quarto-title-block default page-columns">
 <div id="title-block-header-title" class="quarto-title page-columns page-full page-layout-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);">
-<h1 class="title">Research</h1>
+<h1 class="title">Projects</h1>
 </div>
 
 <div>
   <div id="title-block-title-desc" class="description pt-4">
-    <p>This is home for my research publications, each linked with<br> accompanying preprints, posters, and/or news pieces.</p>
+    <p>A collection of selected academic and technical projects developed during my undergraduate studies,<br> including computer vision-based vehicle monitoring, face-recognition-based smart locking, and a chatbot for North-East India tourism.</p>
   </div>
 </div>
 
@@ -401,385 +404,109 @@ window.Quarto = {
 
 
 
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
-<div class="list quarto-listing-default">
-<div class="quarto-post image-left" data-index="0" data-categories="cmVzZWFyY2glMkNuZW9uYXRhbCUyMHBhaW4lMjBkZXRlY3Rpb24lMkNyUFBHJTJDcGh5c2lvbG9naWNhbCUyMGNvbXB1dGluZyUyQ2hlYWx0aGNhcmUlMjBBSSUyQ211bHRpbW9kYWwlMjBsZWFybmluZw==" data-listing-date-sort="1777323600000" data-listing-file-modified-sort="1781527230590" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="569">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/neonatal-pain-rppg/index.html" class="no-external">Exploring Remote Photoplethysmography for Neonatal Pain Detection from Facial Videos</a>
-</h3>
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="Q2hhdGJvdCUyQ05MUCUyQ1RvdXJpc20lMkNEYXRhJTIwU2NpZW5jZSUyQ0hhY2thdGhvbg==" data-listing-date-sort="1522530000000" data-listing-file-modified-sort="1781609844719" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="112">
+<a href="../project/northeast-tourism-chatbot/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../project/northeast-tourism-chatbot/featured.jpg" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+ChatBot on NorthEast Tourism
+</h5>
+<div class="card-subtitle listing-subtitle">
+A chatbot prototype for tourism-related information in NorthEast India
+</div>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('cmVzZWFyY2g='); return false;">research</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Q2hhdGJvdA=='); return false;">Chatbot</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('bmVvbmF0YWwlMjBwYWluJTIwZGV0ZWN0aW9u'); return false;">neonatal pain detection</div>
+<div class="listing-category" onclick="window.quartoListingCategory('TkxQ'); return false;">NLP</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('clBQRw=='); return false;">rPPG</div>
+<div class="listing-category" onclick="window.quartoListingCategory('VG91cmlzbQ=='); return false;">Tourism</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('cGh5c2lvbG9naWNhbCUyMGNvbXB1dGluZw=='); return false;">physiological computing</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMFNjaWVuY2U='); return false;">Data Science</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('aGVhbHRoY2FyZSUyMEFJ'); return false;">healthcare AI</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bXVsdGltb2RhbCUyMGxlYXJuaW5n'); return false;">multimodal learning</div>
+<div class="listing-category" onclick="window.quartoListingCategory('SGFja2F0aG9u'); return false;">Hackathon</div>
 
 </div>
-</div>
-<div class="metadata">
-<a href="../research/neonatal-pain-rppg/index.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Apr 28, 2026
-</div>
-<div class="listing-author">
-Ashutosh Dhamaniya, Anup Kumar Gupta, Trishna Saikia, Puneet Gupta
-</div>
-</a>
+Apr 1, 2018
 </div>
 </div>
-<div class="quarto-post image-left" data-index="1" data-categories="cmVzZWFyY2glMkNyUFBHJTJDU3BPMiUyQ3RyYW5zZm9ybWVyJTJDY29udHJhc3RpdmUlMjBsZWFybmluZyUyQ2hlYWx0aGNhcmUlMjBBSQ==" data-listing-date-sort="1768428000000" data-listing-file-modified-sort="1781522827088" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="378">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/shine-spo2-estimation/index.html" class="no-external">SHINE: Synergizing Transformers with Contrastive Learning for rPPG-Based SpO₂ Estimation</a>
-</h3>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="RmFjZSUyMFJlY29nbml0aW9uJTJDT3BlbkNWJTJDQXJkdWlubyUyQ0lvVCUyQ1NlY3VyaXR5JTIwU3lzdGVt" data-listing-date-sort="1535749200000" data-listing-file-modified-sort="1781610239149" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="84">
+<a href="../project/smart-face-lock/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../project/smart-face-lock/featured.png" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Smart Face Recognizing Locking System
+</h5>
+<div class="card-subtitle listing-subtitle">
+An intelligent face-recognition-based locking system using OpenCV and Arduino
+</div>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('cmVzZWFyY2g='); return false;">research</div>
+<div class="listing-category" onclick="window.quartoListingCategory('RmFjZSUyMFJlY29nbml0aW9u'); return false;">Face Recognition</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('clBQRw=='); return false;">rPPG</div>
+<div class="listing-category" onclick="window.quartoListingCategory('T3BlbkNW'); return false;">OpenCV</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('U3BPMg=='); return false;">SpO2</div>
+<div class="listing-category" onclick="window.quartoListingCategory('QXJkdWlubw=='); return false;">Arduino</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('dHJhbnNmb3JtZXI='); return false;">transformer</div>
+<div class="listing-category" onclick="window.quartoListingCategory('SW9U'); return false;">IoT</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('Y29udHJhc3RpdmUlMjBsZWFybmluZw=='); return false;">contrastive learning</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aGVhbHRoY2FyZSUyMEFJ'); return false;">healthcare AI</div>
+<div class="listing-category" onclick="window.quartoListingCategory('U2VjdXJpdHklMjBTeXN0ZW0='); return false;">Security System</div>
 
 </div>
-</div>
-<div class="metadata">
-<a href="../research/shine-spo2-estimation/index.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Jan 15, 2026
-</div>
-<div class="listing-author">
-Vaidehi Agarwal, Trishna Saikia, Anup Kumar Gupta, Puneet Gupta
-</div>
-</a>
+Sep 1, 2018
 </div>
 </div>
-<div class="quarto-post image-left" data-index="2" data-categories="cmVzZWFyY2glMkNwYWluJTIwYXNzZXNzbWVudCUyQ211bHRpbW9kYWwlMjBsZWFybmluZyUyQ3BoeXNpb2xvZ2ljYWwlMjBjb21wdXRpbmclMkNoZWFsdGhjYXJlJTIwQUklMkNhZmZlY3RpdmUlMjBjb21wdXRpbmc=" data-listing-date-sort="1759266000000" data-listing-file-modified-sort="1781528536005" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="446">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/painxtract-multimodal-pain-classification/index.html" class="no-external">PainXtract: A Multimodal System for Multiclass Pain Classification Using Physiological Signals</a>
-</h3>
+</div>
+</div></a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="Q29tcHV0ZXIlMjBWaXNpb24lMkNNYWNoaW5lJTIwTGVhcm5pbmclMkNZT0xPJTJDQW5kcm9pZCUyQ09wZW5DVg==" data-listing-date-sort="1561928400000" data-listing-file-modified-sort="1781610092554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="97">
+<a href="../project/vehicle-tracking-crowdedness/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img loading="lazy" src="../project/vehicle-tracking-crowdedness/featured.png" class="thumbnail-image card-img" style="height: 100%;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+Vehicle Tracking and Crowdedness Detection Inside the Vehicle
+</h5>
+<div class="card-subtitle listing-subtitle">
+Computer vision and machine learning-based public vehicle tracking and crowd estimation system
+</div>
 <div class="listing-categories">
 
-<div class="listing-category" onclick="window.quartoListingCategory('cmVzZWFyY2g='); return false;">research</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Q29tcHV0ZXIlMjBWaXNpb24='); return false;">Computer Vision</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('cGFpbiUyMGFzc2Vzc21lbnQ='); return false;">pain assessment</div>
+<div class="listing-category" onclick="window.quartoListingCategory('TWFjaGluZSUyMExlYXJuaW5n'); return false;">Machine Learning</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('bXVsdGltb2RhbCUyMGxlYXJuaW5n'); return false;">multimodal learning</div>
+<div class="listing-category" onclick="window.quartoListingCategory('WU9MTw=='); return false;">YOLO</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('cGh5c2lvbG9naWNhbCUyMGNvbXB1dGluZw=='); return false;">physiological computing</div>
+<div class="listing-category" onclick="window.quartoListingCategory('QW5kcm9pZA=='); return false;">Android</div>
 
-<div class="listing-category" onclick="window.quartoListingCategory('aGVhbHRoY2FyZSUyMEFJ'); return false;">healthcare AI</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('YWZmZWN0aXZlJTIwY29tcHV0aW5n'); return false;">affective computing</div>
+<div class="listing-category" onclick="window.quartoListingCategory('T3BlbkNW'); return false;">OpenCV</div>
 
 </div>
-</div>
-<div class="metadata">
-<a href="../research/painxtract-multimodal-pain-classification/index.html" class="no-external">
+<div class="card-attribution card-text-small end">
 <div class="listing-date">
-Oct 1, 2025
-</div>
-<div class="listing-author">
-Anup Kumar Gupta, Trishna Saikia, Puneet Gupta
-</div>
-</a>
+Jul 1, 2019
 </div>
 </div>
-<div class="quarto-post image-left" data-index="3" data-categories="cmVzZWFyY2glMkNkZWVwZmFrZSUyMGRldGVjdGlvbiUyQ3JQUEclMkNjb21wdXRlciUyMHZpc2lvbiUyQ3RlbXBvcmFsJTIwbGVhcm5pbmclMkNoZWFsdGhjYXJlJTIwQUk=" data-listing-date-sort="1738360800000" data-listing-file-modified-sort="1781525435469" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="426">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/avenue-deepfake-detection/index.html" class="no-external">AVENUE: A Novel Deepfake Detection Method Based on Temporal Convolutional Network and rPPG Information</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cmVzZWFyY2g='); return false;">research</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGVlcGZha2UlMjBkZXRlY3Rpb24='); return false;">deepfake detection</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('clBQRw=='); return false;">rPPG</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29tcHV0ZXIlMjB2aXNpb24='); return false;">computer vision</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('dGVtcG9yYWwlMjBsZWFybmluZw=='); return false;">temporal learning</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aGVhbHRoY2FyZSUyMEFJ'); return false;">healthcare AI</div>
-
 </div>
-</div>
-<div class="metadata">
-<a href="../research/avenue-deepfake-detection/index.html" class="no-external">
-<div class="listing-date">
-Feb 1, 2025
-</div>
-<div class="listing-author">
-Lokendra Birla, Trishna Saikia, Puneet Gupta
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="4" data-categories="cmVzZWFyY2glMkNibG9vZCUyMHByZXNzdXJlJTJDUFBHJTJDaGVhbHRoY2FyZSUyMEFJ" data-listing-date-sort="1735682400000" data-listing-file-modified-sort="1781620958851" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="88">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/volemia-bp-estimation/index.html" class="no-external">VOLEMIA: Non-Invasive Blood Pressure Estimation Using Temporal-Spectral Convolutional Network</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cmVzZWFyY2g='); return false;">research</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ymxvb2QlMjBwcmVzc3VyZQ=='); return false;">blood pressure</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('UFBH'); return false;">PPG</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aGVhbHRoY2FyZSUyMEFJ'); return false;">healthcare AI</div>
-
-</div>
-</div>
-<div class="metadata">
-<a href="../research/volemia-bp-estimation/index.html" class="no-external">
-<div class="listing-date">
-Jan 1, 2025
-</div>
-<div class="listing-author">
-Trishna Saikia, Satwik Vankayalapati, Puneet Gupta, Pasi Liljeberg
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="5" data-categories="cmVzZWFyY2glMkNyUFBHJTJDaGVhcnQlMjByYXRlJTIwZXN0aW1hdGlvbiUyQ3RlbXBvcmFsJTIwY29udm9sdXRpb24lMjBuZXR3b3JrJTJDcGh5c2lvbG9naWNhbCUyMGNvbXB1dGluZyUyQ2hlYWx0aGNhcmUlMjBBSQ==" data-listing-date-sort="1704060000000" data-listing-file-modified-sort="1781529276554" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="477">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/hr-track-rppg-heart-rate/index.html" class="no-external">HR-TRACK: An rPPG Method for Heartrate Monitoring Using Temporal Convolution Networks</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cmVzZWFyY2g='); return false;">research</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('clBQRw=='); return false;">rPPG</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aGVhcnQlMjByYXRlJTIwZXN0aW1hdGlvbg=='); return false;">heart rate estimation</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('dGVtcG9yYWwlMjBjb252b2x1dGlvbiUyMG5ldHdvcms='); return false;">temporal convolution network</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGh5c2lvbG9naWNhbCUyMGNvbXB1dGluZw=='); return false;">physiological computing</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aGVhbHRoY2FyZSUyMEFJ'); return false;">healthcare AI</div>
-
-</div>
-</div>
-<div class="metadata">
-<a href="../research/hr-track-rppg-heart-rate/index.html" class="no-external">
-<div class="listing-date">
-Jan 1, 2024
-</div>
-<div class="listing-author">
-Lokendra Birla, Sneha Shukla, Trishna Saikia, Puneet Gupta
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="6" data-categories="cmVzZWFyY2glMkNvcmFsJTIwY2FuY2VyJTJDaGlzdG9wYXRob2xvZ3klMkNtZWRpY2FsJTIwaW1hZ2luZyUyQ2Vuc2VtYmxlJTIwbGVhcm5pbmclMkNkZWVwJTIwbGVhcm5pbmc=" data-listing-date-sort="1704060000000" data-listing-file-modified-sort="1781528460613" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="378">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/oral-cancer-histopathology/index.html" class="no-external">An Ensemble Technique for Classification of Oral Cancer by Using Histopathological Imaging</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cmVzZWFyY2g='); return false;">research</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('b3JhbCUyMGNhbmNlcg=='); return false;">oral cancer</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aGlzdG9wYXRob2xvZ3k='); return false;">histopathology</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bWVkaWNhbCUyMGltYWdpbmc='); return false;">medical imaging</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZW5zZW1ibGUlMjBsZWFybmluZw=='); return false;">ensemble learning</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGVlcCUyMGxlYXJuaW5n'); return false;">deep learning</div>
-
-</div>
-</div>
-<div class="metadata">
-<a href="../research/oral-cancer-histopathology/index.html" class="no-external">
-<div class="listing-date">
-Jan 1, 2024
-</div>
-<div class="listing-author">
-Trishna Saikia, Ashutosh Dhamaniya, Puneet Gupta, Koushlendra Kumar Singh
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="7" data-categories="cmVzZWFyY2glMkNyUFBHJTJDaGVhcnQlMjByYXRlJTIwZXN0aW1hdGlvbiUyQ3BoeXNpb2xvZ2ljYWwlMjBjb21wdXRpbmclMkNjb21wdXRlciUyMHZpc2lvbiUyQ2hlYWx0aGNhcmUlMjBBSQ==" data-listing-date-sort="1698789600000" data-listing-file-modified-sort="1781529149896" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="479">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/hreadai-heart-rate-estimation/index.html" class="no-external">HREADAI: Heart Rate Estimation From Face Mask Videos by Consolidating Eulerian and Lagrangian Approaches</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cmVzZWFyY2g='); return false;">research</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('clBQRw=='); return false;">rPPG</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aGVhcnQlMjByYXRlJTIwZXN0aW1hdGlvbg=='); return false;">heart rate estimation</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGh5c2lvbG9naWNhbCUyMGNvbXB1dGluZw=='); return false;">physiological computing</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29tcHV0ZXIlMjB2aXNpb24='); return false;">computer vision</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aGVhbHRoY2FyZSUyMEFJ'); return false;">healthcare AI</div>
-
-</div>
-</div>
-<div class="metadata">
-<a href="../research/hreadai-heart-rate-estimation/index.html" class="no-external">
-<div class="listing-date">
-Nov 1, 2023
-</div>
-<div class="listing-author">
-Trishna Saikia, Lokendra Birla, Anup Kumar Gupta, Puneet Gupta
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="8" data-categories="cmVzZWFyY2glMkNwbGFudCUyMGRpc2Vhc2UlMjBkZXRlY3Rpb24lMkNhZ3JpY3VsdHVyZSUyMEFJJTJDdHJhbnNmZXIlMjBsZWFybmluZyUyQ2xvZ2lzdGljJTIwcmVncmVzc2lvbiUyQ2NvbXB1dGVyJTIwdmlzaW9u" data-listing-date-sort="1672524000000" data-listing-file-modified-sort="1781527098299" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="432">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/leaf-disease-transfer-learning/index.html" class="no-external">Computer-Aided Leaf Disease Classification Based on Logistic Regression and Transfer Learning Approach</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cmVzZWFyY2g='); return false;">research</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('cGxhbnQlMjBkaXNlYXNlJTIwZGV0ZWN0aW9u'); return false;">plant disease detection</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('YWdyaWN1bHR1cmUlMjBBSQ=='); return false;">agriculture AI</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('dHJhbnNmZXIlMjBsZWFybmluZw=='); return false;">transfer learning</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bG9naXN0aWMlMjByZWdyZXNzaW9u'); return false;">logistic regression</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('Y29tcHV0ZXIlMjB2aXNpb24='); return false;">computer vision</div>
-
-</div>
-</div>
-<div class="metadata">
-<a href="../research/leaf-disease-transfer-learning/index.html" class="no-external">
-<div class="listing-date">
-Jan 1, 2023
-</div>
-<div class="listing-author">
-Trishna Saikia, Malho Hansdah, Koushlendra Kumar Singh
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="9" data-categories="cmVzZWFyY2glMkNsdW5nJTIwbm9kdWxlJTJDbWVkaWNhbCUyMGltYWdpbmclMkN0cmFuc2ZlciUyMGxlYXJuaW5nJTJDZGVlcCUyMGxlYXJuaW5nJTJDaGVhbHRoY2FyZSUyMEFJ" data-listing-date-sort="1656622800000" data-listing-file-modified-sort="1781523330445" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="264">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/lung-nodule-classification_sn/index.html" class="no-external">An Automatic Lung Nodule Classification System Based on Hybrid Transfer Learning Approach</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cmVzZWFyY2g='); return false;">research</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bHVuZyUyMG5vZHVsZQ=='); return false;">lung nodule</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bWVkaWNhbCUyMGltYWdpbmc='); return false;">medical imaging</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('dHJhbnNmZXIlMjBsZWFybmluZw=='); return false;">transfer learning</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGVlcCUyMGxlYXJuaW5n'); return false;">deep learning</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('aGVhbHRoY2FyZSUyMEFJ'); return false;">healthcare AI</div>
-
-</div>
-</div>
-<div class="metadata">
-<a href="../research/lung-nodule-classification_sn/index.html" class="no-external">
-<div class="listing-date">
-Jul 1, 2022
-</div>
-<div class="listing-author">
-Trishna Saikia, Ranjeet Kumar, Dilip Kumar, Koushlendra Kumar Singh
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="10" data-categories="cmVzZWFyY2glMkNsdW5nJTIwbm9kdWxlJTJDdHJhbnNmZXIlMjBsZWFybmluZyUyQ0tOTiUyQ21lZGljYWwlMjBpbWFnaW5nJTJDZGVlcCUyMGxlYXJuaW5n" data-listing-date-sort="1655240400000" data-listing-file-modified-sort="1781528913930" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="352">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/lung-nodule-knn-transfer-learning/index.html" class="no-external">Classification of Lung Nodules based on Transfer Learning with K-Nearest Neighbor (KNN)</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('cmVzZWFyY2g='); return false;">research</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bHVuZyUyMG5vZHVsZQ=='); return false;">lung nodule</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('dHJhbnNmZXIlMjBsZWFybmluZw=='); return false;">transfer learning</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('S05O'); return false;">KNN</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bWVkaWNhbCUyMGltYWdpbmc='); return false;">medical imaging</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('ZGVlcCUyMGxlYXJuaW5n'); return false;">deep learning</div>
-
-</div>
-</div>
-<div class="metadata">
-<a href="../research/lung-nodule-knn-transfer-learning/index.html" class="no-external">
-<div class="listing-date">
-Jun 15, 2022
-</div>
-<div class="listing-author">
-Trishna Saikia, Malho Hansdah, Koushlendra Kumar Singh, Manish Kumar Bajpai
-</div>
-</a>
-</div>
-</div>
-<div class="quarto-post image-left" data-index="11" data-categories="Ym9vayUyMGNoYXB0ZXIlMkNvcHRpbWl6YXRpb24lMkNvcGVyYXRpb25zJTIwcmVzZWFyY2glMkNtYWNoaW5lJTIwbGVhcm5pbmclMkNtYXRoZW1hdGljYWwlMjBvcHRpbWl6YXRpb24=" data-listing-date-sort="1640988000000" data-listing-file-modified-sort="1781528729248" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="378">
-<div class="body">
-<h3 class="no-anchor listing-title">
-<a href="../research/introduction-to-optimization-techniques/index.html" class="no-external">Introduction to Various Optimization Techniques</a>
-</h3>
-<div class="listing-categories">
-
-<div class="listing-category" onclick="window.quartoListingCategory('Ym9vayUyMGNoYXB0ZXI='); return false;">book chapter</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('b3B0aW1pemF0aW9u'); return false;">optimization</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('b3BlcmF0aW9ucyUyMHJlc2VhcmNo'); return false;">operations research</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bWFjaGluZSUyMGxlYXJuaW5n'); return false;">machine learning</div>
-
-<div class="listing-category" onclick="window.quartoListingCategory('bWF0aGVtYXRpY2FsJTIwb3B0aW1pemF0aW9u'); return false;">mathematical optimization</div>
-
-</div>
-</div>
-<div class="metadata">
-<a href="../research/introduction-to-optimization-techniques/index.html" class="no-external">
-<div class="listing-date">
-Jan 1, 2022
-</div>
-<div class="listing-author">
-Trishna Saikia, Koushlendra Kumar Singh, Sergey Vityazev, Akbar Sheikh Akbar
-</div>
-</a>
-</div>
+</div></a>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>

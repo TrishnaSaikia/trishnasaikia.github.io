@@ -15,7 +15,7 @@ categories:
 description: "Digital Signal Processing"
 summary: "A temporal-spectral convolutional network for non-invasive blood pressure estimation from PPG signals."
 subtitle: "A temporal-spectral convolutional network for non-invasive blood pressure estimation from PPG signals."
-image: featured.jpg
+image: featured.png
 links:
   - icon: file-richtext-fill
     name: Publication

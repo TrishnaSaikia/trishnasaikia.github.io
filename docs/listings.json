@@ -15,5 +15,13 @@
       "/research/lung-nodule-knn-transfer-learning/index.html",
       "/research/introduction-to-optimization-techniques/index.html"
     ]
+  },
+  {
+    "listing": "/project/index.html",
+    "items": [
+      "/project/northeast-tourism-chatbot/index.html",
+      "/project/smart-face-lock/index.html",
+      "/project/vehicle-tracking-crowdedness/index.html"
+    ]
   }
 ]

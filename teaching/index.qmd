@@ -1,29 +1,115 @@
 ---
 title: "Teaching"
+
 description: |
-  This is a home for invited talks and workshops, each linked with accompanying materials.<br>
-  A collection of slide decks can be found at [slides.silviacanelon.com](https://slides.silviacanelon.com)
-listing: 
-  contents: 
-    - "**/index.qmd"
-    - "**/index.markdown"
-    - "**/index.md"
-  sort: "date desc"
-  type: default
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, author, categories, date, image]
-  image-align: left
-  # image-height: 10em
-  # page-size: 5
-format: 
-  html: 
+  My teaching experience includes teaching assistantships, tutorials, workshops, and mentoring activities in machine learning, software engineering, pattern recognition, and healthcare AI.
+
+author: ""
+citation: false
+comments: false
+
+format:
+  html:
     page-layout: full
+
 title-block-banner: false
 
 header-includes: >
   <link rel="stylesheet" href="../assets/listing-default.css">
+
 resources:
   - ../assets/listing-default.css
 ---
+
+---
+
+## PMRF Guest Faculty
+
+**Department of Information Technology, Gauhati University Institute of Science and Technology (GUIST)**
+*January 2025 – June 2026*
+
+Delivered lectures for undergraduate students in the Department of Information Technology.
+
+**Courses Taught**
+
+* System Programming
+* Web Technology
+* Python Programming
+
+The lectures focused on both theoretical foundations and hands-on programming concepts, helping undergraduate students develop practical skills.
+
+---
+
+**Department of Computer Science and Engineering, SGSITS Indore**
+*March 2023 – December 2024*
+
+Delivered lectures for undergraduate and postgraduate students in the Department of Computer Science and Engineering.
+
+**Courses Taught**
+
+* Deep Learning
+
+The sessions covered modern machine learning techniques, neural network architectures with practical demonstrations and case studies.
+
+## Teaching Assistantships
+
+### Machine Learning (CS403/603)
+
+**Indian Institute of Technology Indore**
+
+Served as a Teaching Assistant for the undergraduate and postgraduate Machine Learning course. Responsibilities included conducting tutorial sessions, assisting students with assignments and projects, holding doubt-clearing sessions, and supporting course evaluation activities.
+
+**Topics Covered**
+
+* Supervised Learning
+* Regression and Classification
+* Decision Trees
+* Support Vector Machines
+* Neural Networks
+* Model Evaluation and Validation
+
+---
+
+### Software Engineering (CS208/258)
+
+**Indian Institute of Technology Indore**
+
+Assisted in teaching Software Engineering concepts through tutorials, assignment evaluation, and student mentoring.
+
+**Topics Covered**
+
+* Software Development Life Cycle
+* Requirement Engineering
+* UML and Software Design
+* Software Testing
+* Agile Development Methodologies
+
+---
+
+### Pattern Recognition (CS412/612)
+
+**Indian Institute of Technology Indore**
+
+Supported teaching activities for Pattern Recognition and Machine Learning courses, including tutorials and practical problem-solving sessions.
+
+**Topics Covered**
+
+* Feature Extraction
+* Statistical Pattern Recognition
+* Classification Algorithms
+* Clustering Techniques
+* Dimensionality Reduction
+
+---
+
+## Student Mentoring
+
+Mentored undergraduate and postgraduate students on projects related to:
+
+* Machine Learning
+* Computer Vision
+* Remote Physiological Sensing (rPPG)
+* Healthcare AI
+* Biomedical Signal Processing
+
+Guided students in literature review, experimentation, implementation, and scientific writing.
