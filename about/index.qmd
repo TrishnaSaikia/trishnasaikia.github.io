@@ -26,7 +26,7 @@ about:
       aria-label: "ORCID"
       href: https://orcid.org/0000-0002-3052-1689
 
-    - text: "{{< fa envelope >}}"
+    - icon: envelope
       aria-label: "Email"
       href: mailto:trishnasaikia2521@gmail.com
 

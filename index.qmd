@@ -54,11 +54,10 @@ resources:
 
 ::: {#hero-heading}
 
-I am a final-year PhD researcher in Computer Science and Engineering at IIT Indore. My research lies at the intersection of machine learning, computer vision, multimodal learning, and physiological computing.
+"Research is to see what everybody else has seen, and to think what nobody else has thought."
+— Albert Szent-Györgyi
 
-My work focuses on extracting physiological and behavioral information from videos and biosignals for applications in healthcare, including heart rate, blood pressure, respiration, oxygen saturation, and pain analysis.
-
-I am a Prime Minister Research Fellow (PMRF), an India RISE Fellow, and currently a Visiting Research Scholar at the University of Turku, Finland.
+I am interested in developing trustworthy AI systems that bridge machine learning, computer vision, physiological computing, and healthcare to create technologies with real-world impact.
 
 [Learn more about me &rarr;](about/index.html){.about-links .subtitle}
 
