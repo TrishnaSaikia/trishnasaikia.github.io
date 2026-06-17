@@ -1,87 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://trishnasaikia.github.io/index.html</loc>
-    <lastmod>2026-06-15T08:26:27.130Z</lastmod>
-  </url>
-  <url>
     <loc>https://trishnasaikia.github.io/about/index.html</loc>
     <lastmod>2026-06-16T08:15:21.047Z</lastmod>
   </url>
   <url>
-    <loc>https://trishnasaikia.github.io/research/index.html</loc>
-    <lastmod>2026-06-14T16:06:36.996Z</lastmod>
-  </url>
-  <url>
-    <loc>https://trishnasaikia.github.io/research/volemia-bp-estimation/index.html</loc>
-    <lastmod>2026-06-16T14:42:38.851Z</lastmod>
-  </url>
-  <url>
-    <loc>https://trishnasaikia.github.io/research/shine-spo2-estimation/index.html</loc>
-    <lastmod>2026-06-15T11:27:07.088Z</lastmod>
-  </url>
-  <url>
-    <loc>https://trishnasaikia.github.io/research/painxtract-multimodal-pain-classification/index.html</loc>
-    <lastmod>2026-06-15T13:02:16.005Z</lastmod>
-  </url>
-  <url>
-    <loc>https://trishnasaikia.github.io/research/oral-cancer-histopathology/index.html</loc>
-    <lastmod>2026-06-15T13:01:00.613Z</lastmod>
-  </url>
-  <url>
-    <loc>https://trishnasaikia.github.io/research/neonatal-pain-rppg/index.html</loc>
-    <lastmod>2026-06-15T12:40:30.590Z</lastmod>
-  </url>
-  <url>
-    <loc>https://trishnasaikia.github.io/research/lung-nodule-knn-transfer-learning/index.html</loc>
-    <lastmod>2026-06-15T13:08:33.930Z</lastmod>
-  </url>
-  <url>
-    <loc>https://trishnasaikia.github.io/research/lung-nodule-classification_sn/index.html</loc>
-    <lastmod>2026-06-15T11:35:30.445Z</lastmod>
-  </url>
-  <url>
-    <loc>https://trishnasaikia.github.io/research/leaf-disease-transfer-learning/index.html</loc>
-    <lastmod>2026-06-15T12:38:18.299Z</lastmod>
-  </url>
-  <url>
-    <loc>https://trishnasaikia.github.io/research/introduction-to-optimization-techniques/index.html</loc>
-    <lastmod>2026-06-15T13:05:29.248Z</lastmod>
-  </url>
-  <url>
-    <loc>https://trishnasaikia.github.io/research/hreadai-heart-rate-estimation/index.html</loc>
-    <lastmod>2026-06-15T13:12:29.896Z</lastmod>
-  </url>
-  <url>
-    <loc>https://trishnasaikia.github.io/research/hr-track-rppg-heart-rate/index.html</loc>
-    <lastmod>2026-06-15T13:14:36.554Z</lastmod>
-  </url>
-  <url>
-    <loc>https://trishnasaikia.github.io/research/avenue-deepfake-detection/index.html</loc>
-    <lastmod>2026-06-15T12:10:35.469Z</lastmod>
-  </url>
-  <url>
-    <loc>https://trishnasaikia.github.io/project/index.html</loc>
-    <lastmod>2026-06-16T11:47:48.692Z</lastmod>
-  </url>
-  <url>
-    <loc>https://trishnasaikia.github.io/project/vehicle-tracking-crowdedness/index.html</loc>
-    <lastmod>2026-06-16T11:41:32.554Z</lastmod>
-  </url>
-  <url>
-    <loc>https://trishnasaikia.github.io/project/northeast-tourism-chatbot/index.html</loc>
-    <lastmod>2026-06-16T11:37:24.719Z</lastmod>
-  </url>
-  <url>
-    <loc>https://trishnasaikia.github.io/project/smart-face-lock/index.html</loc>
-    <lastmod>2026-06-16T11:43:59.149Z</lastmod>
+    <loc>https://trishnasaikia.github.io/index.html</loc>
+    <lastmod>2026-06-15T08:26:27.130Z</lastmod>
   </url>
   <url>
     <loc>https://trishnasaikia.github.io/teaching/index.html</loc>
     <lastmod>2026-06-16T14:39:57.290Z</lastmod>
-  </url>
-  <url>
-    <loc>https://trishnasaikia.github.io/miscellaneous/index.html</loc>
-    <lastmod>2026-06-17T13:27:41.702Z</lastmod>
   </url>
 </urlset>

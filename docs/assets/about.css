@@ -81,3 +81,19 @@
     margin: 0em 0em 0em 0em;
   }
 }
+
+.about-entity .about-links .about-link,
+.about-entity .about-links .about-link i,
+.about-entity .about-links .about-link svg,
+.about-entity .about-links .bi,
+.about-entity .about-links .fa,
+.about-entity .about-links .ai {
+    color: #a74712 !important;
+    fill: #a74712 !important;
+}
+
+.fa-ul .fa-li i,
+.fa-ul .fa-li svg,
+.fa-ul .fa-li .fa-solid {
+    color: #8c4a1e !important;
+}

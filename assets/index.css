@@ -110,3 +110,28 @@
       padding: 0 2em 0 2em !important;
     }
 }
+
+/* Homepage social icons */
+.about-links a,
+.about-links a i,
+.about-links a svg,
+.about-links .fa,
+.about-links .bi,
+.about-links .ai,
+.about-link,
+.about-link i,
+.about-link svg {
+    color: #a74712 !important;
+    fill: #a74712 !important;
+}
+
+/* Homepage social icon hover */
+.about-links a:hover,
+.about-links a:hover i,
+.about-links a:hover svg,
+.about-link:hover,
+.about-link:hover i,
+.about-link:hover svg {
+    color: #7f330c !important;
+    fill: #7f330c !important;
+}

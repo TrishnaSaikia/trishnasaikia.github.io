@@ -1,0 +1,17 @@
+{
+  "listing": "/research/index.html",
+  "items": [
+    "/research/neonatal-pain-rppg/index.html",
+    "/research/shine-spo2-estimation/index.html",
+    "/research/painxtract-multimodal-pain-classification/index.html",
+    "/research/avenue-deepfake-detection/index.html",
+    "/research/volemia-bp-estimation/index.html",
+    "/research/hr-track-rppg-heart-rate/index.html",
+    "/research/oral-cancer-histopathology/index.html",
+    "/research/hreadai-heart-rate-estimation/index.html",
+    "/research/leaf-disease-transfer-learning/index.html",
+    "/research/lung-nodule-classification_sn/index.html",
+    "/research/lung-nodule-knn-transfer-learning/index.html",
+    "/research/introduction-to-optimization-techniques/index.html"
+  ]
+}
