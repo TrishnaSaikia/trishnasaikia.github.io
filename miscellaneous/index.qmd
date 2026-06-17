@@ -1,36 +1,247 @@
 ---
 title: "Miscellaneous"
-description: |
-  This is my blog where I practice sharing my curiosity about R.<br>
-  It includes notes and tutorials for my future self and hopefully also for you.<br><br>
-  {{< fa envelope >}} Sign up for my [newsletter](/contact.html#buttondown) to receive updates about new posts.
-listing: 
-  contents: 
-    - "**/index.qmd"
-    - "**/index.markdown" 
-    - "**/index.md"
-  sort: "date desc"
-  type: default
-  categories: false
-  sort-ui: false
-  filter-ui: false
-  fields: [title, author, categories, date, image]
-  image-placeholder: sidebar.jpg
-  image-align: right
-  # page-size: 5
-  feed:
-    categories: [R]
-citation: false
-toc: false
+author: ""
 comments: false
-format: 
-  html: 
+citation: false
+description: |
+      Selected awards, academic events, creative activities, and service contributions.
+format:
+  html:
     page-layout: full
 title-block-banner: false
 
 header-includes: >
   <link rel="stylesheet" href="../assets/listing-default.css">
+#  <link rel="" href="../assets/custom-css.js">
 resources:
-  - ../assets/listing-default.css 
-include-after-body: ../assets/silvia/subscribe.html
+  - ../assets/listing-default.css
+#  - ../assets/custom-css.js
 ---
+## Institute Best Technology Award, IIT Indore
+
+Received the **Institute Best Technology Award** at IIT Indore for contributions to technology-driven research and innovation.
+
+```{=html}
+<div id="awardCarousel"
+     class="carousel slide misc-carousel"
+     data-bs-ride="carousel"
+     data-bs-interval="2000">
+
+  <!-- Dots -->
+  <div class="carousel-indicators">
+    <button type="button"
+            data-bs-target="#awardCarousel"
+            data-bs-slide-to="0"
+            class="active"></button>
+
+    <button type="button"
+            data-bs-target="#awardCarousel"
+            data-bs-slide-to="1"></button>
+
+    <button type="button"
+            data-bs-target="#awardCarousel"
+            data-bs-slide-to="2"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="institute-best-technology-award/img1.jpg"
+           class="d-block w-100"
+           alt="Institute Best Technology Award">
+    </div>
+
+    <div class="carousel-item">
+      <img src="institute-best-technology-award/img2.jpg"
+           class="d-block w-100"
+           alt="Institute Best Technology Award">
+    </div>
+
+    <div class="carousel-item">
+      <img src="institute-best-technology-award/img3.jpg"
+           class="d-block w-100"
+           alt="Institute Best Technology Award">
+    </div>
+  </div>
+
+  <button class="carousel-control-prev"
+          type="button"
+          data-bs-target="#awardCarousel"
+          data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next"
+          type="button"
+          data-bs-target="#awardCarousel"
+          data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div>
+```
+---
+
+## India RISE Cohort
+
+Participated in the **first India RISE Cohort**, an academic and leadership development initiative supporting early-career women researchers.
+
+```{=html}
+<div id="riseCarousel"
+     class="carousel slide misc-carousel"
+     data-bs-ride="carousel"
+     data-bs-interval="2000">
+
+  <div class="carousel-indicators">
+      <button type="button" data-bs-target="#riseCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#riseCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#riseCarousel" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#riseCarousel" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#riseCarousel" data-bs-slide-to="4"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="india-rise-cohort/img1.jpg" class="d-block w-100" alt="India RISE Cohort">
+    </div>
+
+    <div class="carousel-item">
+      <img src="india-rise-cohort/img2.jpg" class="d-block w-100" alt="India RISE Cohort">
+    </div>
+
+    <div class="carousel-item">
+      <img src="india-rise-cohort/img3.jpg" class="d-block w-100" alt="India RISE Cohort">
+    </div>
+
+    <div class="carousel-item">
+      <img src="india-rise-cohort/img4.jpg" class="d-block w-100" alt="India RISE Cohort">
+    </div>
+
+    <div class="carousel-item">
+      <img src="india-rise-cohort/img5.jpg" class="d-block w-100" alt="India RISE Cohort">
+    </div>
+  </div>
+
+  <button class="carousel-control-prev"
+          type="button"
+          data-bs-target="#riseCarousel"
+          data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next"
+          type="button"
+          data-bs-target="#riseCarousel"
+          data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div>
+```
+---
+
+## Inter-Hostel Drawing Competition, IIT Indore
+
+Received the **first prize** in the inter-hostel drawing competition at IIT Indore.
+
+```{=html}
+<div id="drawingCarousel"
+     class="carousel slide misc-carousel"
+     data-bs-ride="carousel"
+     data-bs-interval="2000">
+
+  <div class="carousel-indicators">
+      <button type="button" data-bs-target="#drawingCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#drawingCarousel" data-bs-slide-to="1"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="drawing-competition/img1.jpg"
+           class="d-block w-100"
+           alt="Inter-hostel drawing competition">
+    </div>
+
+    <div class="carousel-item">
+      <img src="drawing-competition/img2.jpg"
+           class="d-block w-100"
+           alt="Inter-hostel drawing competition">
+    </div>
+  </div>
+
+  <button class="carousel-control-prev"
+          type="button"
+          data-bs-target="#drawingCarousel"
+          data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next"
+          type="button"
+          data-bs-target="#drawingCarousel"
+          data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div>
+```
+---
+
+## Organizing Team, Symposium 3.0, IIT Indore
+
+Served as part of the organizing team for **Symposium 3.0** at IIT Indore.
+
+```{=html}
+<div id="symposiumCarousel"
+     class="carousel slide misc-carousel"
+     data-bs-ride="carousel"
+     data-bs-interval="2000">
+
+  <div class="carousel-indicators">
+      <button type="button" data-bs-target="#symposiumCarousel" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#symposiumCarousel" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#symposiumCarousel" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#symposiumCarousel" data-bs-slide-to="3"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="symposium-3/img1.jpg"
+           class="d-block w-100"
+           alt="Symposium 3.0 IIT Indore">
+    </div>
+
+    <div class="carousel-item">
+      <img src="symposium-3/img2.jpg"
+           class="d-block w-100"
+           alt="Symposium 3.0 IIT Indore">
+    </div>
+
+    <div class="carousel-item">
+      <img src="symposium-3/img3.jpg"
+           class="d-block w-100"
+           alt="Symposium 3.0 IIT Indore">
+    </div>
+
+    <div class="carousel-item">
+      <img src="symposium-3/img4.jpg"
+           class="d-block w-100"
+           alt="Symposium 3.0 IIT Indore">
+    </div>
+  </div>
+
+  <button class="carousel-control-prev"
+          type="button"
+          data-bs-target="#symposiumCarousel"
+          data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+
+  <button class="carousel-control-next"
+          type="button"
+          data-bs-target="#symposiumCarousel"
+          data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+
+</div>
+```
