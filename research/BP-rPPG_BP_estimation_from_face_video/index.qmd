@@ -17,7 +17,7 @@ categories:
 description: "IEEE Transactions on Consumer Electronics"
 summary: "The BP-rPPG dataset and ALIVE, a PPG-guided deep-learning baseline for contactless blood pressure estimation from facial videos of varying quality."
 subtitle: "Contactless blood pressure estimation from facial videos using PPG-guided representation learning and quality-weighted fusion."
-image: featured.jpg
+image: featured.png
 
 links:
   - icon: file-richtext-fill
