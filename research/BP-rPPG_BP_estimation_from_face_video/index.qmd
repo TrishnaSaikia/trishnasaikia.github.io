@@ -1,0 +1,121 @@
+---
+title: "BP-rPPG: An Indian Face-Video Dataset and PPG-Guided Baseline for Remote Blood Pressure Estimation"
+author:
+  - Trishna Saikia
+  - Puneet Gupta
+  - Pasi Liljeberg
+date: "2026-08-03"
+slug: bp-rppg-alive-blood-pressure
+categories:
+  - research
+  - rPPG
+  - blood pressure estimation
+  - physiological computing
+  - deep learning
+  - healthcare AI
+  - dataset
+description: "IEEE Transactions on Consumer Electronics"
+summary: "The BP-rPPG dataset and ALIVE, a PPG-guided deep-learning baseline for contactless blood pressure estimation from facial videos of varying quality."
+subtitle: "Contactless blood pressure estimation from facial videos using PPG-guided representation learning and quality-weighted fusion."
+image: featured.jpg
+
+links:
+  - icon: file-richtext-fill
+    name: Publication
+    url: https://doi.org/10.1109/TCE.2026.3719074
+
+  - icon: link-45deg
+    name: IEEE Xplore
+    url: https://ieeexplore.ieee.org/document/11638191
+
+  - icon: github
+    name: Dataset and Code
+    url: https://github.com/TrishnaSaikia/BP-rPPG-ALIVE
+---
+
+## Overview
+
+**BP-rPPG** introduces an Indian facial-video dataset for contactless blood pressure estimation and **ALIVE**, a PPG-guided deep-learning baseline for estimating systolic and diastolic blood pressure from remote photoplethysmography (**rPPG**). The dataset includes facial videos at varying quality levels, enabling systematic evaluation under video degradation and compression.
+
+The work was published in **IEEE Transactions on Consumer Electronics**. It addresses two major limitations in remote blood pressure estimation: the scarcity of suitable rPPG datasets with blood pressure labels and the performance gap between contact-based PPG and camera-derived rPPG methods.
+
+## Motivation
+
+Blood pressure is an essential indicator of cardiovascular health, but conventional measurement methods require contact-based cuffs or sensors. rPPG offers a convenient, non-contact alternative by capturing subtle blood-volume-related variations from facial videos. However, remote blood pressure estimation remains challenging because physiological information is weak, unevenly distributed across video frames, and sensitive to variations in video quality.
+
+Existing rPPG-based approaches also generally perform less reliably than methods based on contact PPG signals. BP-rPPG and ALIVE were developed to support progress toward robust, practical, and reproducible contactless blood pressure monitoring.
+
+## BP-rPPG Dataset
+
+The proposed **BP-rPPG dataset** contains facial videos from an Indian cohort together with corresponding physiological measurements for blood pressure estimation. Its key characteristics include:
+
+* Facial videos paired with systolic and diastolic blood pressure labels
+* Videos provided at varying quality and compression levels
+* Recordings designed to support both within-quality and cross-quality evaluation
+* Data suitable for studying the effect of video degradation on rPPG-based blood pressure estimation
+* An Indian participant cohort that broadens demographic representation in remote physiological sensing research
+
+By incorporating varying video qualities, BP-rPPG provides a challenging benchmark that more closely reflects the conditions encountered in real-world consumer and telehealth applications.
+
+## ALIVE Method
+
+**ALIVE** is a PPG-guided framework designed to learn blood-pressure-relevant information from facial videos. The framework consists of the following main components:
+
+### 1. Facial Video Representation
+
+Facial videos are processed to capture subtle spatiotemporal variations associated with cardiovascular activity. These visual observations provide the basis for learning remote physiological representations.
+
+### 2. PPG-Guided Learning
+
+ALIVE uses contact PPG as physiological guidance during training. A specialized network architecture and custom loss formulation encourage the learned rPPG features to preserve characteristics that are important for blood pressure estimation.
+
+### 3. Clip-Level Processing
+
+Instead of treating the complete facial video as uniformly informative, ALIVE divides each video into shorter clips. This allows the framework to extract localized physiological information and reduces the influence of low-quality or weakly informative temporal regions.
+
+### 4. Quality-Weighted Fusion
+
+Because rPPG information is not distributed uniformly across a video, ALIVE assigns greater importance to clips containing more reliable blood-pressure-related information. The clip-level representations are then combined through quality-weighted fusion to produce the final systolic and diastolic blood pressure estimates.
+
+## Key Contributions
+
+* Introduced **BP-rPPG**, an Indian facial-video dataset for remote blood pressure estimation.
+* Provided facial videos at varying quality levels for systematic robustness evaluation.
+* Proposed **ALIVE**, a PPG-guided deep-learning baseline for estimating blood pressure from rPPG.
+* Developed a specialized learning strategy to align rPPG representations with blood-pressure-relevant PPG characteristics.
+* Introduced clip-level quality-weighted fusion to account for the uneven distribution of physiological information across video frames.
+* Released the dataset resources and baseline implementation to support reproducible research.
+
+## Experimental Evaluation
+
+ALIVE was evaluated on the proposed **BP-rPPG dataset** and the publicly available **MSPM dataset**. The experiments examined blood pressure estimation across different recording qualities and evaluated the robustness of the method when training and testing conditions differed.
+
+The results showed that:
+
+* ALIVE outperformed the evaluated existing approaches on the studied datasets.
+* PPG-guided learning improved the extraction of blood-pressure-relevant information from facial videos.
+* Quality-weighted fusion helped consolidate useful information from multiple video clips.
+* Performance decreased under substantial video-quality mismatch, highlighting the difficulty of real-world cross-quality blood pressure estimation.
+* BP-rPPG provides a more challenging evaluation setting that can support future research on robust remote blood pressure monitoring.
+
+## Research Significance
+
+This work advances contactless cardiovascular monitoring by contributing both a new dataset and a reproducible baseline. The combination of PPG-guided representation learning and clip-level quality modeling provides a practical direction for narrowing the gap between contact-based and camera-based blood pressure estimation.
+
+The study also emphasizes that video quality must be considered when developing rPPG systems for consumer devices, telehealth, and remote patient monitoring. BP-rPPG can support future investigations into cross-quality generalization, physiological signal reliability, demographic representation, and deployable healthcare AI.
+
+## Dataset and Code
+
+The BP-rPPG dataset resources and the implementation of the ALIVE baseline are available through the project repository:
+
+<https://github.com/TrishnaSaikia/BP-rPPG-ALIVE>
+
+## Publication
+
+Trishna Saikia, Puneet Gupta, and Pasi Liljeberg.
+
+*BP-rPPG: An Indian Face-Video Dataset and PPG-Guided Baseline for Remote Blood Pressure Estimation.*
+
+**IEEE Transactions on Consumer Electronics**, 2026.
+
+DOI: <https://doi.org/10.1109/TCE.2026.3719074>
